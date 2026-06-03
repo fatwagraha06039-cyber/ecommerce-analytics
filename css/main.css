@@ -125,6 +125,7 @@ body::before {
     max-width: 1600px;
     margin: 0 auto;
     padding: var(--space-lg);
+    overflow-x: visible;
 }
 
 /* Header */
@@ -195,6 +196,8 @@ body::before {
     margin-bottom: var(--space-xl);
     overflow-x: auto;
     scrollbar-width: none;
+    flex-wrap: nowrap;
+    min-width: 0;
 }
 
 .nav-tabs::-webkit-scrollbar {

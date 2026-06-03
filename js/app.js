@@ -38,30 +38,34 @@ async function loadData() {
 // INITIALIZATION
 // ============================================
 function initDashboard() {
-    renderKPIs();
-    renderComparisons();
-    renderOverviewCharts();
-    renderSalesSection();
-    renderProductsSection();
-    renderCustomersSection();
-    renderGeographicSection();
-    renderInsightsSection();
-    renderSQLShowcase();
-    renderPipelineSection();
+    // Navigation must init first, before any render errors can block it
     initNavigation();
+
+    try { renderKPIs(); } catch(e) { console.error('renderKPIs:', e); }
+    try { renderComparisons(); } catch(e) { console.error('renderComparisons:', e); }
+    try { renderOverviewCharts(); } catch(e) { console.error('renderOverviewCharts:', e); }
+    try { renderSalesSection(); } catch(e) { console.error('renderSalesSection:', e); }
+    try { renderProductsSection(); } catch(e) { console.error('renderProductsSection:', e); }
+    try { renderCustomersSection(); } catch(e) { console.error('renderCustomersSection:', e); }
+    try { renderGeographicSection(); } catch(e) { console.error('renderGeographicSection:', e); }
+    try { renderInsightsSection(); } catch(e) { console.error('renderInsightsSection:', e); }
+    try { renderSQLShowcase(); } catch(e) { console.error('renderSQLShowcase:', e); }
+    try { renderPipelineSection(); } catch(e) { console.error('renderPipelineSection:', e); }
 }
 
 // ============================================
 // NAVIGATION
 // ============================================
 function initNavigation() {
-    const tabs = document.querySelectorAll('.nav-tab');
-    tabs.forEach(tab => {
-        tab.addEventListener('click', () => {
-            tabs.forEach(t => t.classList.remove('active'));
+    var tabs = document.querySelectorAll('.nav-tab');
+    var sections = document.querySelectorAll('.section');
+    tabs.forEach(function(tab) {
+        tab.addEventListener('click', function() {
+            tabs.forEach(function(t) { t.classList.remove('active'); });
+            sections.forEach(function(s) { s.classList.remove('active'); });
             tab.classList.add('active');
-            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-            document.getElementById(tab.dataset.tab).classList.add('active');
+            var target = document.getElementById(tab.dataset.tab);
+            if (target) target.classList.add('active');
         });
     });
 }
@@ -526,12 +530,16 @@ function renderSQLShowcase() {
     ];
 
     document.getElementById('sqlShowcase').innerHTML = queries.map(function(q) {
-        var highlighted = q.sql
-            .replace(/\b(SELECT|FROM|WHERE|GROUP BY|ORDER BY|LIMIT|JOIN|LEFT JOIN|ON|AS|AND|OR|CASE|WHEN|THEN|ELSE|END|WITH|OVER|DISTINCT|COUNT|SUM|AVG|MIN|MAX|ROUND|LAG|RANK|DATE_TRUNC|DATEDIFF|DATEADD|CURRENT_DATE|NULL)\b/gi, '<span class="sql-keyword">$1</span>')
-            .replace(/\b(COUNT|SUM|AVG|MIN|MAX|ROUND|LAG|RANK|DATE_TRUNC|DATEDIFF|DATEADD)\b/g, '<span class="sql-function">$1</span>')
-            .replace(/'([^']*)'/g, '<span class="sql-string">\'$1\'</span>')
-            .replace(/\b(\d+\.?\d*)\b/g, '<span class="sql-number">$1</span>')
-            .replace(/--.*/g, '<span class="sql-comment">$&</span>');
+        // Escape HTML first
+        var escaped = q.sql.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        // Highlight strings first (to avoid matching keywords inside strings)
+        var highlighted = escaped.replace(/'([^']*)'/g, '<span class="sql-string">\'$1\'</span>');
+        // Highlight keywords (only standalone, not inside spans)
+        highlighted = highlighted.replace(/\b(SELECT|FROM|WHERE|GROUP BY|ORDER BY|LIMIT|JOIN|LEFT JOIN|ON|AS|AND|OR|CASE|WHEN|THEN|ELSE|END|WITH|OVER|DISTINCT|NULL)\b/g, '<span class="sql-keyword">$1</span>');
+        // Highlight functions
+        highlighted = highlighted.replace(/\b(COUNT|SUM|AVG|MIN|MAX|ROUND|LAG|RANK|DATE_TRUNC|DATEDIFF|DATEADD|CURRENT_DATE)\b/g, '<span class="sql-function">$1</span>');
+        // Highlight numbers (only outside of existing spans)
+        highlighted = highlighted.replace(/\b(\d+\.?\d*)\b/g, '<span class="sql-number">$1</span>');
         return '<div class="sql-block"><div class="sql-block-header"><span class="sql-block-title">' + q.title + '</span><span class="sql-block-purpose">' + q.purpose + '</span></div><pre>' + highlighted + '</pre></div>';
     }).join('');
 }
@@ -588,6 +596,10 @@ function renderPipelineSection() {
         }).join('') + '</div>';
 
     // Business Impact Section
+    var topCustPipeline = DATA.top_customers || [];
+    var top10RevPipeline = topCustPipeline.slice(0, 10).reduce(function(s, c) { return s + c.monetary; }, 0);
+    var top10PctPipeline = DATA.kpis.total_revenue > 0 ? (top10RevPipeline / DATA.kpis.total_revenue * 100).toFixed(1) : '0.0';
+
     document.getElementById('businessImpactSection').innerHTML =
         '<div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--space-xl)">' +
         '<div><h3 style="color:var(--text-primary);margin-bottom:var(--space-lg);font-size:1.125rem">Why This Analysis Matters</h3>' +
@@ -595,7 +607,7 @@ function renderPipelineSection() {
         [
             { q: 'How much revenue is generated?', a: formatCurrency(DATA.kpis.total_revenue) + ' across ' + formatNumber(DATA.kpis.total_orders) + ' completed orders' },
             { q: 'Which products drive profit?', a: DATA.products[0].product + ' leads with ' + formatCurrency(DATA.products[0].revenue) + ' revenue' },
-            { q: 'Which customers are most valuable?', a: 'Top 10% customers generate ' + top10Pct + '% of total revenue' },
+            { q: 'Which customers are most valuable?', a: 'Top 10% customers generate ' + top10PctPipeline + '% of total revenue' },
             { q: 'Which regions underperform?', a: DATA.regions[DATA.regions.length - 1].region + ' region has lowest revenue at ' + formatCurrency(DATA.regions[DATA.regions.length - 1].revenue) },
             { q: 'What trends are emerging?', a: 'Positive growth trend with seasonal peaks in Q4' }
         ].map(function(item) {
