@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Analytics | Executive Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Header -->
+        <header class="dashboard-header">
+            <div class="header-left">
+                <h1>E-Commerce Analytics</h1>
+                <p>Executive Business Intelligence Dashboard &mdash; 2024-2025</p>
+            </div>
+            <div class="header-right">
+                <span class="header-badge"><span class="dot"></span> Live Data</span>
+                <span class="header-badge">5,000 Transactions</span>
+                <span class="header-badge">794 Customers</span>
+                <button class="btn btn-outline" onclick="window.print()">Export PDF</button>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="nav-tabs" id="navTabs">
+            <button class="nav-tab active" data-tab="overview">Overview</button>
+            <button class="nav-tab" data-tab="sales">Sales Performance</button>
+            <button class="nav-tab" data-tab="products">Product Intelligence</button>
+            <button class="nav-tab" data-tab="customers">Customer Analytics</button>
+            <button class="nav-tab" data-tab="geographic">Geographic</button>
+            <button class="nav-tab" data-tab="insights">Executive Insights</button>
+            <button class="nav-tab" data-tab="sql">SQL Showcase</button>
+            <button class="nav-tab" data-tab="pipeline">Data Pipeline</button>
+        </nav>
+
+        <!-- ============================================
+             SECTION: OVERVIEW
+             ============================================ -->
+        <section class="section active" id="overview">
+            <h2 class="section-title">Executive Overview</h2>
+            <p class="section-subtitle">Key performance indicators and business health metrics</p>
+
+            <!-- KPI Cards -->
+            <div class="kpi-grid" id="kpiGrid"></div>
+
+            <!-- Comparison Cards -->
+            <div class="grid-3" id="comparisonGrid"></div>
+
+            <!-- Charts Row -->
+            <div class="grid-2">
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Revenue Trend</div>
+                            <div class="chart-subtitle">Monthly revenue with growth trajectory</div>
+                        </div>
+                        <div class="chart-actions">
+                            <button class="chart-btn active" data-range="monthly">Monthly</button>
+                            <button class="chart-btn" data-range="quarterly">Quarterly</button>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="revenueTrendChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Profit Trend</div>
+                            <div class="chart-subtitle">Monthly profit with margin analysis</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="profitTrendChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Category Revenue</div>
+                            <div class="chart-subtitle">Revenue distribution by product category</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="categoryChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Order Status</div>
+                            <div class="chart-subtitle">Order fulfillment and return analysis</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="statusChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SECTION: SALES PERFORMANCE
+             ============================================ -->
+        <section class="section" id="sales">
+            <h2 class="section-title">Sales Performance Analysis</h2>
+            <p class="section-subtitle">Revenue, profit, and order trends with forecasting</p>
+
+            <div class="kpi-grid" id="salesKpiGrid"></div>
+
+            <div class="grid-2">
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Revenue & Profit Trend</div>
+                            <div class="chart-subtitle">Monthly comparison with forecast</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="salesTrendChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Orders & Customers</div>
+                            <div class="chart-subtitle">Monthly order volume and unique customers</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="ordersCustomersChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Growth Rate</div>
+                            <div class="chart-subtitle">Month-over-month revenue growth percentage</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="growthRateChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Forecast: Next 3 Months</div>
+                            <div class="chart-subtitle">Linear regression prediction</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="forecastChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart-container grid-full">
+                <div class="chart-header">
+                    <div>
+                        <div class="chart-title">Day-of-Week Distribution</div>
+                        <div class="chart-subtitle">Order volume by day of week</div>
+                    </div>
+                </div>
+                <div class="chart-body">
+                    <canvas id="dailyDistChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SECTION: PRODUCT INTELLIGENCE
+             ============================================ -->
+        <section class="section" id="products">
+            <h2 class="section-title">Product Intelligence</h2>
+            <p class="section-subtitle">Product performance, ABC analysis, and category deep-dive</p>
+
+            <div class="grid-2">
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Top 10 Products by Revenue</div>
+                            <div class="chart-subtitle">Highest revenue generating products</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="topProductsChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">ABC Analysis (Pareto)</div>
+                            <div class="chart-subtitle">80/15/5 product classification</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="abcChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Category Profit Margin</div>
+                            <div class="chart-subtitle">Profit margin comparison across categories</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="categoryMarginChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Category Market Share</div>
+                            <div class="chart-subtitle">Revenue share by product category</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="categoryShareChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top Products Table -->
+            <div class="data-table-container grid-full">
+                <div class="chart-header" style="padding: var(--space-lg);">
+                    <div class="chart-title">Product Performance Table</div>
+                </div>
+                <table class="data-table" id="productsTable">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Product</th>
+                            <th>Category</th>
+                            <th>Revenue</th>
+                            <th>Profit</th>
+                            <th>Margin</th>
+                            <th>Orders</th>
+                            <th>ABC Class</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SECTION: CUSTOMER ANALYTICS
+             ============================================ -->
+        <section class="section" id="customers">
+            <h2 class="section-title">Customer Analytics</h2>
+            <p class="section-subtitle">RFM segmentation, lifetime value, and retention analysis</p>
+
+            <div class="kpi-grid" id="customerKpiGrid"></div>
+
+            <div class="grid-2">
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">RFM Segment Distribution</div>
+                            <div class="chart-subtitle">Customer segmentation by Recency, Frequency, Monetary</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="rfmChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Customer Segment</div>
+                            <div class="chart-subtitle">Regular vs Premium vs VIP</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="customerSegmentChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">New vs Returning Customers</div>
+                            <div class="chart-subtitle">Customer acquisition and retention</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="newReturningChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Payment Methods</div>
+                            <div class="chart-subtitle">Preferred payment channels</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="paymentChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top Customers Table -->
+            <div class="data-table-container grid-full">
+                <div class="chart-header" style="padding: var(--space-lg);">
+                    <div class="chart-title">Top 20 Customers (VIP)</div>
+                </div>
+                <table class="data-table" id="customersTable">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Customer ID</th>
+                            <th>Segment</th>
+                            <th>RFM Score</th>
+                            <th>RFM Segment</th>
+                            <th>Frequency</th>
+                            <th>Monetary</th>
+                            <th>Recency (days)</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SECTION: GEOGRAPHIC
+             ============================================ -->
+        <section class="section" id="geographic">
+            <h2 class="section-title">Geographic Analytics</h2>
+            <p class="section-subtitle">Regional performance and geographic distribution</p>
+
+            <div class="kpi-grid" id="geoKpiGrid"></div>
+
+            <div class="grid-2">
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Revenue by Region</div>
+                            <div class="chart-subtitle">Regional revenue distribution</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="regionChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Profit by Region</div>
+                            <div class="chart-subtitle">Regional profitability comparison</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="regionProfitChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Customers by Region</div>
+                            <div class="chart-subtitle">Customer distribution across regions</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="regionCustomersChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Profit Margin by Region</div>
+                            <div class="chart-subtitle">Regional profit margin comparison</div>
+                        </div>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="regionMarginChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Region Table -->
+            <div class="data-table-container grid-full">
+                <div class="chart-header" style="padding: var(--space-lg);">
+                    <div class="chart-title">Regional Performance Summary</div>
+                </div>
+                <table class="data-table" id="regionTable">
+                    <thead>
+                        <tr>
+                            <th>Region</th>
+                            <th>Revenue</th>
+                            <th>Profit</th>
+                            <th>Margin</th>
+                            <th>Orders</th>
+                            <th>Customers</th>
+                            <th>Avg Order Value</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SECTION: EXECUTIVE INSIGHTS
+             ============================================ -->
+        <section class="section" id="insights">
+            <h2 class="section-title">Executive Insights</h2>
+            <p class="section-subtitle">Automated business intelligence and strategic recommendations</p>
+
+            <div class="grid-3" id="insightsGrid"></div>
+
+            <div class="chart-container grid-full">
+                <div class="chart-header">
+                    <div>
+                        <div class="chart-title">Business Impact Summary</div>
+                        <div class="chart-subtitle">Key takeaways for decision makers</div>
+                    </div>
+                </div>
+                <div style="padding: var(--space-lg);">
+                    <div id="businessImpact"></div>
+                </div>
+            </div>
+
+            <!-- Tech Stack -->
+            <div class="chart-container grid-full">
+                <div class="chart-header">
+                    <div>
+                        <div class="chart-title">Tech Stack</div>
+                        <div class="chart-subtitle">Technologies and methodologies used</div>
+                    </div>
+                </div>
+                <div style="padding: var(--space-lg); display: flex; flex-wrap: wrap; gap: var(--space-sm);" id="techStack"></div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SECTION: SQL SHOWCASE
+             ============================================ -->
+        <section class="section" id="sql">
+            <h2 class="section-title">SQL Showcase</h2>
+            <p class="section-subtitle">Analytical queries demonstrating SQL proficiency</p>
+
+            <div id="sqlShowcase"></div>
+        </section>
+
+        <!-- ============================================
+             SECTION: DATA PIPELINE
+             ============================================ -->
+        <section class="section" id="pipeline">
+            <h2 class="section-title">Data Pipeline & Methodology</h2>
+            <p class="section-subtitle">End-to-end data processing workflow</p>
+
+            <div class="chart-container grid-full">
+                <div class="chart-header">
+                    <div>
+                        <div class="chart-title">Analytics Pipeline</div>
+                        <div class="chart-subtitle">From raw data to business insights</div>
+                    </div>
+                </div>
+                <div class="pipeline" id="pipelineSteps"></div>
+            </div>
+
+            <div class="grid-2">
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Data Quality Metrics</div>
+                            <div class="chart-subtitle">Data validation and quality checks</div>
+                        </div>
+                    </div>
+                    <div style="padding: var(--space-lg);" id="dataQuality"></div>
+                </div>
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Python Analytics Workflow</div>
+                            <div class="chart-subtitle">Pandas, NumPy, Matplotlib pipeline</div>
+                        </div>
+                    </div>
+                    <div style="padding: var(--space-lg);" id="pythonWorkflow"></div>
+                </div>
+            </div>
+
+            <!-- Business Impact Section -->
+            <div class="chart-container grid-full">
+                <div class="chart-header">
+                    <div>
+                        <div class="chart-title">Business Impact</div>
+                        <div class="chart-subtitle">What problems were solved and what decisions can be made</div>
+                    </div>
+                </div>
+                <div style="padding: var(--space-lg);" id="businessImpactSection"></div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="dashboard-footer">
+            <div class="footer-links">
+                <a href="https://github.com/fatwagraha06039-cyber" class="footer-link" target="_blank">GitHub</a>
+                <a href="#" class="footer-link">LinkedIn</a>
+                <a href="#" class="footer-link">Upwork</a>
+            </div>
+            <p class="footer-copyright">
+                Built by Marva Ahmad &mdash; Data Analyst & BI Specialist &mdash; 2025
+            </p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

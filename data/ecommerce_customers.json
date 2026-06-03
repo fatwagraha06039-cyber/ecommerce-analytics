@@ -1,0 +1,8002 @@
+[
+  {
+    "customer_id": "CUST-00001",
+    "name": "Robert Brown",
+    "email": "customer1@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Diego",
+    "join_date": "2023-06-28"
+  },
+  {
+    "customer_id": "CUST-00002",
+    "name": "Linda Taylor",
+    "email": "customer2@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Houston",
+    "join_date": "2023-02-24"
+  },
+  {
+    "customer_id": "CUST-00003",
+    "name": "Christopher Rodriguez",
+    "email": "customer3@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "join_date": "2023-01-14"
+  },
+  {
+    "customer_id": "CUST-00004",
+    "name": "Robert Miller",
+    "email": "customer4@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "join_date": "2024-11-20"
+  },
+  {
+    "customer_id": "CUST-00005",
+    "name": "Margaret Lopez",
+    "email": "customer5@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Jose",
+    "join_date": "2024-06-25"
+  },
+  {
+    "customer_id": "CUST-00006",
+    "name": "Sandra Gonzalez",
+    "email": "customer6@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Colorado Springs",
+    "join_date": "2023-06-11"
+  },
+  {
+    "customer_id": "CUST-00007",
+    "name": "Barbara Jackson",
+    "email": "customer7@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "South Bend",
+    "join_date": "2024-01-29"
+  },
+  {
+    "customer_id": "CUST-00008",
+    "name": "John Davis",
+    "email": "customer8@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "California",
+    "city": "San Francisco",
+    "join_date": "2023-07-26"
+  },
+  {
+    "customer_id": "CUST-00009",
+    "name": "Barbara Garcia",
+    "email": "customer9@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "join_date": "2025-01-28"
+  },
+  {
+    "customer_id": "CUST-00010",
+    "name": "Sandra Williams",
+    "email": "customer10@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "join_date": "2023-12-17"
+  },
+  {
+    "customer_id": "CUST-00011",
+    "name": "Sandra Moore",
+    "email": "customer11@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Cambridge",
+    "join_date": "2024-03-25"
+  },
+  {
+    "customer_id": "CUST-00012",
+    "name": "Betty Hernandez",
+    "email": "customer12@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2025-04-01"
+  },
+  {
+    "customer_id": "CUST-00013",
+    "name": "Christopher Hernandez",
+    "email": "customer13@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2024-03-11"
+  },
+  {
+    "customer_id": "CUST-00014",
+    "name": "David Jones",
+    "email": "customer14@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Arlington",
+    "join_date": "2024-05-20"
+  },
+  {
+    "customer_id": "CUST-00015",
+    "name": "Christopher Gonzalez",
+    "email": "customer15@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "South Bend",
+    "join_date": "2025-01-11"
+  },
+  {
+    "customer_id": "CUST-00016",
+    "name": "Matthew Johnson",
+    "email": "customer16@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "join_date": "2023-08-13"
+  },
+  {
+    "customer_id": "CUST-00017",
+    "name": "Susan Martin",
+    "email": "customer17@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Florida",
+    "city": "Orlando",
+    "join_date": "2023-05-11"
+  },
+  {
+    "customer_id": "CUST-00018",
+    "name": "Thomas Rodriguez",
+    "email": "customer18@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Arlington",
+    "join_date": "2023-01-24"
+  },
+  {
+    "customer_id": "CUST-00019",
+    "name": "Matthew Hernandez",
+    "email": "customer19@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Boulder",
+    "join_date": "2023-08-17"
+  },
+  {
+    "customer_id": "CUST-00020",
+    "name": "Nancy Rodriguez",
+    "email": "customer20@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Minneapolis",
+    "join_date": "2025-10-22"
+  },
+  {
+    "customer_id": "CUST-00021",
+    "name": "Elizabeth Taylor",
+    "email": "customer21@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "join_date": "2024-02-12"
+  },
+  {
+    "customer_id": "CUST-00022",
+    "name": "Matthew Taylor",
+    "email": "customer22@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2023-01-02"
+  },
+  {
+    "customer_id": "CUST-00023",
+    "name": "Barbara Martinez",
+    "email": "customer23@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Minneapolis",
+    "join_date": "2024-05-05"
+  },
+  {
+    "customer_id": "CUST-00024",
+    "name": "John Thomas",
+    "email": "customer24@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Salem",
+    "join_date": "2023-05-22"
+  },
+  {
+    "customer_id": "CUST-00025",
+    "name": "Sarah Garcia",
+    "email": "customer25@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "join_date": "2024-06-26"
+  },
+  {
+    "customer_id": "CUST-00026",
+    "name": "Daniel Miller",
+    "email": "customer26@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2024-09-30"
+  },
+  {
+    "customer_id": "CUST-00027",
+    "name": "Mark Taylor",
+    "email": "customer27@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Huntsville",
+    "join_date": "2025-07-13"
+  },
+  {
+    "customer_id": "CUST-00028",
+    "name": "James Jackson",
+    "email": "customer28@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Portland",
+    "join_date": "2024-04-16"
+  },
+  {
+    "customer_id": "CUST-00029",
+    "name": "Mary Davis",
+    "email": "customer29@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New York",
+    "city": "New York City",
+    "join_date": "2023-05-19"
+  },
+  {
+    "customer_id": "CUST-00030",
+    "name": "Linda Rodriguez",
+    "email": "customer30@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Provo",
+    "join_date": "2025-09-21"
+  },
+  {
+    "customer_id": "CUST-00031",
+    "name": "Mark Jackson",
+    "email": "customer31@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "join_date": "2025-08-26"
+  },
+  {
+    "customer_id": "CUST-00032",
+    "name": "Patricia Wilson",
+    "email": "customer32@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Jersey City",
+    "join_date": "2024-12-26"
+  },
+  {
+    "customer_id": "CUST-00033",
+    "name": "Mary Brown",
+    "email": "customer33@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Richmond",
+    "join_date": "2023-05-05"
+  },
+  {
+    "customer_id": "CUST-00034",
+    "name": "Patricia Davis",
+    "email": "customer34@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Montgomery",
+    "join_date": "2024-01-28"
+  },
+  {
+    "customer_id": "CUST-00035",
+    "name": "Jennifer Rodriguez",
+    "email": "customer35@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "join_date": "2025-08-05"
+  },
+  {
+    "customer_id": "CUST-00036",
+    "name": "Margaret Moore",
+    "email": "customer36@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New York",
+    "city": "Rochester",
+    "join_date": "2023-07-20"
+  },
+  {
+    "customer_id": "CUST-00037",
+    "name": "John Davis",
+    "email": "customer37@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Boulder",
+    "join_date": "2023-12-07"
+  },
+  {
+    "customer_id": "CUST-00038",
+    "name": "Richard Johnson",
+    "email": "customer38@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Richmond",
+    "join_date": "2023-12-04"
+  },
+  {
+    "customer_id": "CUST-00039",
+    "name": "Betty Anderson",
+    "email": "customer39@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "San Antonio",
+    "join_date": "2024-08-07"
+  },
+  {
+    "customer_id": "CUST-00040",
+    "name": "Sarah Thomas",
+    "email": "customer40@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Huntsville",
+    "join_date": "2023-11-14"
+  },
+  {
+    "customer_id": "CUST-00041",
+    "name": "Christopher Moore",
+    "email": "customer41@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2023-05-05"
+  },
+  {
+    "customer_id": "CUST-00042",
+    "name": "Thomas Taylor",
+    "email": "customer42@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2023-11-19"
+  },
+  {
+    "customer_id": "CUST-00043",
+    "name": "John Martin",
+    "email": "customer43@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Phoenix",
+    "join_date": "2023-05-20"
+  },
+  {
+    "customer_id": "CUST-00044",
+    "name": "Christopher Davis",
+    "email": "customer44@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Newark",
+    "join_date": "2023-03-23"
+  },
+  {
+    "customer_id": "CUST-00045",
+    "name": "Michael Hernandez",
+    "email": "customer45@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2024-05-03"
+  },
+  {
+    "customer_id": "CUST-00046",
+    "name": "Elizabeth Anderson",
+    "email": "customer46@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Minneapolis",
+    "join_date": "2024-10-09"
+  },
+  {
+    "customer_id": "CUST-00047",
+    "name": "Christopher Brown",
+    "email": "customer47@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "California",
+    "city": "San Jose",
+    "join_date": "2023-05-31"
+  },
+  {
+    "customer_id": "CUST-00048",
+    "name": "Barbara Williams",
+    "email": "customer48@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "join_date": "2024-05-15"
+  },
+  {
+    "customer_id": "CUST-00049",
+    "name": "Sarah Martinez",
+    "email": "customer49@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Detroit",
+    "join_date": "2023-01-17"
+  },
+  {
+    "customer_id": "CUST-00050",
+    "name": "Robert Rodriguez",
+    "email": "customer50@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Indianapolis",
+    "join_date": "2023-08-25"
+  },
+  {
+    "customer_id": "CUST-00051",
+    "name": "Elizabeth Martin",
+    "email": "customer51@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Boulder",
+    "join_date": "2024-03-07"
+  },
+  {
+    "customer_id": "CUST-00052",
+    "name": "David Taylor",
+    "email": "customer52@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "join_date": "2025-09-27"
+  },
+  {
+    "customer_id": "CUST-00053",
+    "name": "Anthony Rodriguez",
+    "email": "customer53@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2023-04-01"
+  },
+  {
+    "customer_id": "CUST-00054",
+    "name": "David Garcia",
+    "email": "customer54@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Washington",
+    "city": "Seattle",
+    "join_date": "2025-06-23"
+  },
+  {
+    "customer_id": "CUST-00055",
+    "name": "Mark Jones",
+    "email": "customer55@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Nashville",
+    "join_date": "2023-03-15"
+  },
+  {
+    "customer_id": "CUST-00056",
+    "name": "Robert Johnson",
+    "email": "customer56@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Green Bay",
+    "join_date": "2024-09-23"
+  },
+  {
+    "customer_id": "CUST-00057",
+    "name": "Linda Brown",
+    "email": "customer57@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Springfield",
+    "join_date": "2024-12-25"
+  },
+  {
+    "customer_id": "CUST-00058",
+    "name": "Sandra Davis",
+    "email": "customer58@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2023-11-29"
+  },
+  {
+    "customer_id": "CUST-00059",
+    "name": "Sandra Hernandez",
+    "email": "customer59@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Newark",
+    "join_date": "2025-04-23"
+  },
+  {
+    "customer_id": "CUST-00060",
+    "name": "Patricia Gonzalez",
+    "email": "customer60@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2023-03-21"
+  },
+  {
+    "customer_id": "CUST-00061",
+    "name": "Joseph Lopez",
+    "email": "customer61@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Atlanta",
+    "join_date": "2024-09-17"
+  },
+  {
+    "customer_id": "CUST-00062",
+    "name": "Richard Hernandez",
+    "email": "customer62@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "join_date": "2024-07-24"
+  },
+  {
+    "customer_id": "CUST-00063",
+    "name": "Thomas Gonzalez",
+    "email": "customer63@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Provo",
+    "join_date": "2024-11-09"
+  },
+  {
+    "customer_id": "CUST-00064",
+    "name": "David Johnson",
+    "email": "customer64@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Diego",
+    "join_date": "2023-08-11"
+  },
+  {
+    "customer_id": "CUST-00065",
+    "name": "Susan Martin",
+    "email": "customer65@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Durham",
+    "join_date": "2025-11-13"
+  },
+  {
+    "customer_id": "CUST-00066",
+    "name": "Daniel Wilson",
+    "email": "customer66@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Las Vegas",
+    "join_date": "2023-01-04"
+  },
+  {
+    "customer_id": "CUST-00067",
+    "name": "Lisa Hernandez",
+    "email": "customer67@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "New Haven",
+    "join_date": "2024-10-04"
+  },
+  {
+    "customer_id": "CUST-00068",
+    "name": "Lisa Wilson",
+    "email": "customer68@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Colorado Springs",
+    "join_date": "2024-10-30"
+  },
+  {
+    "customer_id": "CUST-00069",
+    "name": "Michael Wilson",
+    "email": "customer69@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Montgomery",
+    "join_date": "2025-02-15"
+  },
+  {
+    "customer_id": "CUST-00070",
+    "name": "Sarah Smith",
+    "email": "customer70@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2024-09-14"
+  },
+  {
+    "customer_id": "CUST-00071",
+    "name": "Karen Hernandez",
+    "email": "customer71@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cleveland",
+    "join_date": "2025-08-10"
+  },
+  {
+    "customer_id": "CUST-00072",
+    "name": "Jessica Garcia",
+    "email": "customer72@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Arlington",
+    "join_date": "2023-06-23"
+  },
+  {
+    "customer_id": "CUST-00073",
+    "name": "William Williams",
+    "email": "customer73@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Green Bay",
+    "join_date": "2024-04-26"
+  },
+  {
+    "customer_id": "CUST-00074",
+    "name": "Mary Davis",
+    "email": "customer74@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Columbus",
+    "join_date": "2025-08-31"
+  },
+  {
+    "customer_id": "CUST-00075",
+    "name": "Christopher Miller",
+    "email": "customer75@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2025-02-25"
+  },
+  {
+    "customer_id": "CUST-00076",
+    "name": "Daniel Smith",
+    "email": "customer76@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Virginia Beach",
+    "join_date": "2023-08-07"
+  },
+  {
+    "customer_id": "CUST-00077",
+    "name": "Daniel Taylor",
+    "email": "customer77@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Atlanta",
+    "join_date": "2025-08-09"
+  },
+  {
+    "customer_id": "CUST-00078",
+    "name": "Patricia Anderson",
+    "email": "customer78@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Phoenix",
+    "join_date": "2023-10-01"
+  },
+  {
+    "customer_id": "CUST-00079",
+    "name": "Karen Hernandez",
+    "email": "customer79@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Huntsville",
+    "join_date": "2025-06-25"
+  },
+  {
+    "customer_id": "CUST-00080",
+    "name": "Nancy Thomas",
+    "email": "customer80@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Memphis",
+    "join_date": "2025-07-10"
+  },
+  {
+    "customer_id": "CUST-00081",
+    "name": "Matthew Taylor",
+    "email": "customer81@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "join_date": "2025-09-19"
+  },
+  {
+    "customer_id": "CUST-00082",
+    "name": "Elizabeth Davis",
+    "email": "customer82@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "New Haven",
+    "join_date": "2024-07-10"
+  },
+  {
+    "customer_id": "CUST-00083",
+    "name": "Robert Davis",
+    "email": "customer83@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Grand Rapids",
+    "join_date": "2025-02-23"
+  },
+  {
+    "customer_id": "CUST-00084",
+    "name": "Susan Hernandez",
+    "email": "customer84@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Orlando",
+    "join_date": "2025-08-12"
+  },
+  {
+    "customer_id": "CUST-00085",
+    "name": "Richard Jackson",
+    "email": "customer85@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Texas",
+    "city": "Dallas",
+    "join_date": "2023-02-10"
+  },
+  {
+    "customer_id": "CUST-00086",
+    "name": "Elizabeth Gonzalez",
+    "email": "customer86@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Virginia Beach",
+    "join_date": "2025-05-08"
+  },
+  {
+    "customer_id": "CUST-00087",
+    "name": "Jessica Smith",
+    "email": "customer87@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Newark",
+    "join_date": "2025-03-07"
+  },
+  {
+    "customer_id": "CUST-00088",
+    "name": "Nancy Garcia",
+    "email": "customer88@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "South Bend",
+    "join_date": "2025-08-15"
+  },
+  {
+    "customer_id": "CUST-00089",
+    "name": "Richard Jackson",
+    "email": "customer89@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2023-02-25"
+  },
+  {
+    "customer_id": "CUST-00090",
+    "name": "Joseph Garcia",
+    "email": "customer90@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Colorado Springs",
+    "join_date": "2023-04-13"
+  },
+  {
+    "customer_id": "CUST-00091",
+    "name": "William Hernandez",
+    "email": "customer91@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Saint Paul",
+    "join_date": "2025-02-15"
+  },
+  {
+    "customer_id": "CUST-00092",
+    "name": "Jessica Smith",
+    "email": "customer92@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Saint Paul",
+    "join_date": "2023-04-17"
+  },
+  {
+    "customer_id": "CUST-00093",
+    "name": "Charles Johnson",
+    "email": "customer93@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "join_date": "2023-03-05"
+  },
+  {
+    "customer_id": "CUST-00094",
+    "name": "Linda Jones",
+    "email": "customer94@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "join_date": "2025-08-27"
+  },
+  {
+    "customer_id": "CUST-00095",
+    "name": "David Lopez",
+    "email": "customer95@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Phoenix",
+    "join_date": "2023-12-10"
+  },
+  {
+    "customer_id": "CUST-00096",
+    "name": "Patricia Jackson",
+    "email": "customer96@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "join_date": "2023-02-22"
+  },
+  {
+    "customer_id": "CUST-00097",
+    "name": "Richard Gonzalez",
+    "email": "customer97@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Green Bay",
+    "join_date": "2024-02-11"
+  },
+  {
+    "customer_id": "CUST-00098",
+    "name": "Linda Brown",
+    "email": "customer98@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Scottsdale",
+    "join_date": "2024-09-09"
+  },
+  {
+    "customer_id": "CUST-00099",
+    "name": "Barbara Moore",
+    "email": "customer99@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Utah",
+    "city": "Ogden",
+    "join_date": "2025-05-27"
+  },
+  {
+    "customer_id": "CUST-00100",
+    "name": "James Wilson",
+    "email": "customer100@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Naperville",
+    "join_date": "2025-09-30"
+  },
+  {
+    "customer_id": "CUST-00101",
+    "name": "Anthony Anderson",
+    "email": "customer101@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2023-11-10"
+  },
+  {
+    "customer_id": "CUST-00102",
+    "name": "Charles Rodriguez",
+    "email": "customer102@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2025-09-17"
+  },
+  {
+    "customer_id": "CUST-00103",
+    "name": "William Davis",
+    "email": "customer103@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Arlington",
+    "join_date": "2023-06-27"
+  },
+  {
+    "customer_id": "CUST-00104",
+    "name": "Christopher Martin",
+    "email": "customer104@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Minneapolis",
+    "join_date": "2025-02-15"
+  },
+  {
+    "customer_id": "CUST-00105",
+    "name": "Jennifer Thomas",
+    "email": "customer105@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Springfield",
+    "join_date": "2024-03-10"
+  },
+  {
+    "customer_id": "CUST-00106",
+    "name": "Karen Rodriguez",
+    "email": "customer106@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2023-01-21"
+  },
+  {
+    "customer_id": "CUST-00107",
+    "name": "Jessica Moore",
+    "email": "customer107@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New York",
+    "city": "Buffalo",
+    "join_date": "2024-05-07"
+  },
+  {
+    "customer_id": "CUST-00108",
+    "name": "Betty Smith",
+    "email": "customer108@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Huntsville",
+    "join_date": "2023-07-10"
+  },
+  {
+    "customer_id": "CUST-00109",
+    "name": "Elizabeth Jackson",
+    "email": "customer109@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cleveland",
+    "join_date": "2025-01-25"
+  },
+  {
+    "customer_id": "CUST-00110",
+    "name": "Nancy Moore",
+    "email": "customer110@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2024-11-08"
+  },
+  {
+    "customer_id": "CUST-00111",
+    "name": "David Davis",
+    "email": "customer111@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "join_date": "2023-09-05"
+  },
+  {
+    "customer_id": "CUST-00112",
+    "name": "Matthew Garcia",
+    "email": "customer112@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2024-01-28"
+  },
+  {
+    "customer_id": "CUST-00113",
+    "name": "Christopher Taylor",
+    "email": "customer113@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "join_date": "2024-08-02"
+  },
+  {
+    "customer_id": "CUST-00114",
+    "name": "Barbara Garcia",
+    "email": "customer114@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "join_date": "2024-09-11"
+  },
+  {
+    "customer_id": "CUST-00115",
+    "name": "Mary Johnson",
+    "email": "customer115@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Boulder",
+    "join_date": "2024-08-21"
+  },
+  {
+    "customer_id": "CUST-00116",
+    "name": "James Jackson",
+    "email": "customer116@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "join_date": "2024-08-05"
+  },
+  {
+    "customer_id": "CUST-00117",
+    "name": "Mary Rodriguez",
+    "email": "customer117@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Richmond",
+    "join_date": "2025-09-05"
+  },
+  {
+    "customer_id": "CUST-00118",
+    "name": "John Jackson",
+    "email": "customer118@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "join_date": "2023-04-20"
+  },
+  {
+    "customer_id": "CUST-00119",
+    "name": "John Davis",
+    "email": "customer119@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "join_date": "2023-08-31"
+  },
+  {
+    "customer_id": "CUST-00120",
+    "name": "Linda Taylor",
+    "email": "customer120@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2025-02-18"
+  },
+  {
+    "customer_id": "CUST-00121",
+    "name": "Susan Martinez",
+    "email": "customer121@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Richmond",
+    "join_date": "2023-05-04"
+  },
+  {
+    "customer_id": "CUST-00122",
+    "name": "David Williams",
+    "email": "customer122@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "join_date": "2023-11-18"
+  },
+  {
+    "customer_id": "CUST-00123",
+    "name": "James Wilson",
+    "email": "customer123@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "join_date": "2025-07-11"
+  },
+  {
+    "customer_id": "CUST-00124",
+    "name": "Daniel Martinez",
+    "email": "customer124@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "join_date": "2025-07-18"
+  },
+  {
+    "customer_id": "CUST-00125",
+    "name": "Betty Jackson",
+    "email": "customer125@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Denver",
+    "join_date": "2024-02-10"
+  },
+  {
+    "customer_id": "CUST-00126",
+    "name": "Sandra Rodriguez",
+    "email": "customer126@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Texas",
+    "city": "Dallas",
+    "join_date": "2023-10-19"
+  },
+  {
+    "customer_id": "CUST-00127",
+    "name": "Karen Jackson",
+    "email": "customer127@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "California",
+    "city": "San Francisco",
+    "join_date": "2024-08-14"
+  },
+  {
+    "customer_id": "CUST-00128",
+    "name": "Daniel Gonzalez",
+    "email": "customer128@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Texas",
+    "city": "San Antonio",
+    "join_date": "2024-07-11"
+  },
+  {
+    "customer_id": "CUST-00129",
+    "name": "Mark Wilson",
+    "email": "customer129@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Virginia Beach",
+    "join_date": "2024-10-22"
+  },
+  {
+    "customer_id": "CUST-00130",
+    "name": "Lisa Jackson",
+    "email": "customer130@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2023-02-12"
+  },
+  {
+    "customer_id": "CUST-00131",
+    "name": "Jennifer Thomas",
+    "email": "customer131@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Milwaukee",
+    "join_date": "2025-11-28"
+  },
+  {
+    "customer_id": "CUST-00132",
+    "name": "Susan Thomas",
+    "email": "customer132@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "join_date": "2023-07-06"
+  },
+  {
+    "customer_id": "CUST-00133",
+    "name": "Lisa Brown",
+    "email": "customer133@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "join_date": "2023-11-26"
+  },
+  {
+    "customer_id": "CUST-00134",
+    "name": "Lisa Gonzalez",
+    "email": "customer134@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Duluth",
+    "join_date": "2023-03-17"
+  },
+  {
+    "customer_id": "CUST-00135",
+    "name": "Patricia Gonzalez",
+    "email": "customer135@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Austin",
+    "join_date": "2025-11-19"
+  },
+  {
+    "customer_id": "CUST-00136",
+    "name": "Mary Miller",
+    "email": "customer136@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Boulder",
+    "join_date": "2025-11-27"
+  },
+  {
+    "customer_id": "CUST-00137",
+    "name": "Matthew Johnson",
+    "email": "customer137@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2024-02-21"
+  },
+  {
+    "customer_id": "CUST-00138",
+    "name": "Joseph Thomas",
+    "email": "customer138@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Milwaukee",
+    "join_date": "2023-09-06"
+  },
+  {
+    "customer_id": "CUST-00139",
+    "name": "Daniel Garcia",
+    "email": "customer139@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Boulder",
+    "join_date": "2024-09-28"
+  },
+  {
+    "customer_id": "CUST-00140",
+    "name": "Anthony Brown",
+    "email": "customer140@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Tucson",
+    "join_date": "2025-08-03"
+  },
+  {
+    "customer_id": "CUST-00141",
+    "name": "Daniel Martinez",
+    "email": "customer141@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Denver",
+    "join_date": "2025-11-08"
+  },
+  {
+    "customer_id": "CUST-00142",
+    "name": "Linda Anderson",
+    "email": "customer142@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Saint Paul",
+    "join_date": "2023-10-24"
+  },
+  {
+    "customer_id": "CUST-00143",
+    "name": "Mark Jones",
+    "email": "customer143@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2023-05-23"
+  },
+  {
+    "customer_id": "CUST-00144",
+    "name": "Thomas Rodriguez",
+    "email": "customer144@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Saint Paul",
+    "join_date": "2023-01-06"
+  },
+  {
+    "customer_id": "CUST-00145",
+    "name": "Christopher Thomas",
+    "email": "customer145@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "join_date": "2023-11-01"
+  },
+  {
+    "customer_id": "CUST-00146",
+    "name": "Sarah Moore",
+    "email": "customer146@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Memphis",
+    "join_date": "2025-02-11"
+  },
+  {
+    "customer_id": "CUST-00147",
+    "name": "Linda Jackson",
+    "email": "customer147@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "join_date": "2025-02-23"
+  },
+  {
+    "customer_id": "CUST-00148",
+    "name": "Jessica Gonzalez",
+    "email": "customer148@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Newark",
+    "join_date": "2025-03-01"
+  },
+  {
+    "customer_id": "CUST-00149",
+    "name": "Christopher Hernandez",
+    "email": "customer149@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Newark",
+    "join_date": "2023-07-25"
+  },
+  {
+    "customer_id": "CUST-00150",
+    "name": "Robert Wilson",
+    "email": "customer150@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "San Antonio",
+    "join_date": "2023-11-13"
+  },
+  {
+    "customer_id": "CUST-00151",
+    "name": "Daniel Gonzalez",
+    "email": "customer151@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2023-06-14"
+  },
+  {
+    "customer_id": "CUST-00152",
+    "name": "William Thomas",
+    "email": "customer152@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "South Bend",
+    "join_date": "2023-03-15"
+  },
+  {
+    "customer_id": "CUST-00153",
+    "name": "Elizabeth Davis",
+    "email": "customer153@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Salem",
+    "join_date": "2023-07-05"
+  },
+  {
+    "customer_id": "CUST-00154",
+    "name": "Daniel Martinez",
+    "email": "customer154@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Houston",
+    "join_date": "2023-03-01"
+  },
+  {
+    "customer_id": "CUST-00155",
+    "name": "Barbara Wilson",
+    "email": "customer155@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Washington",
+    "city": "Seattle",
+    "join_date": "2023-10-26"
+  },
+  {
+    "customer_id": "CUST-00156",
+    "name": "Betty Garcia",
+    "email": "customer156@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "join_date": "2023-12-15"
+  },
+  {
+    "customer_id": "CUST-00157",
+    "name": "Linda Thomas",
+    "email": "customer157@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New York",
+    "city": "Rochester",
+    "join_date": "2023-10-21"
+  },
+  {
+    "customer_id": "CUST-00158",
+    "name": "David Smith",
+    "email": "customer158@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Trenton",
+    "join_date": "2025-08-10"
+  },
+  {
+    "customer_id": "CUST-00159",
+    "name": "Joseph Lopez",
+    "email": "customer159@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "South Bend",
+    "join_date": "2024-09-04"
+  },
+  {
+    "customer_id": "CUST-00160",
+    "name": "Elizabeth Miller",
+    "email": "customer160@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Montgomery",
+    "join_date": "2025-02-26"
+  },
+  {
+    "customer_id": "CUST-00161",
+    "name": "Barbara Jackson",
+    "email": "customer161@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Dallas",
+    "join_date": "2024-08-28"
+  },
+  {
+    "customer_id": "CUST-00162",
+    "name": "James Jackson",
+    "email": "customer162@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Naperville",
+    "join_date": "2023-04-11"
+  },
+  {
+    "customer_id": "CUST-00163",
+    "name": "Barbara Davis",
+    "email": "customer163@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "join_date": "2024-01-25"
+  },
+  {
+    "customer_id": "CUST-00164",
+    "name": "Lisa Jones",
+    "email": "customer164@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "South Bend",
+    "join_date": "2023-07-18"
+  },
+  {
+    "customer_id": "CUST-00165",
+    "name": "Barbara Jones",
+    "email": "customer165@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Washington",
+    "city": "Tacoma",
+    "join_date": "2023-07-04"
+  },
+  {
+    "customer_id": "CUST-00166",
+    "name": "Michael Jones",
+    "email": "customer166@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Grand Rapids",
+    "join_date": "2025-01-19"
+  },
+  {
+    "customer_id": "CUST-00167",
+    "name": "Jessica Martinez",
+    "email": "customer167@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cleveland",
+    "join_date": "2024-11-24"
+  },
+  {
+    "customer_id": "CUST-00168",
+    "name": "Linda Gonzalez",
+    "email": "customer168@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Las Vegas",
+    "join_date": "2025-01-19"
+  },
+  {
+    "customer_id": "CUST-00169",
+    "name": "Sarah Brown",
+    "email": "customer169@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Provo",
+    "join_date": "2025-07-20"
+  },
+  {
+    "customer_id": "CUST-00170",
+    "name": "Christopher Gonzalez",
+    "email": "customer170@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "South Bend",
+    "join_date": "2025-01-30"
+  },
+  {
+    "customer_id": "CUST-00171",
+    "name": "Karen Moore",
+    "email": "customer171@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Denver",
+    "join_date": "2024-11-02"
+  },
+  {
+    "customer_id": "CUST-00172",
+    "name": "Joseph Martinez",
+    "email": "customer172@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Florida",
+    "city": "Miami",
+    "join_date": "2025-04-16"
+  },
+  {
+    "customer_id": "CUST-00173",
+    "name": "Elizabeth Thomas",
+    "email": "customer173@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Portland",
+    "join_date": "2023-08-26"
+  },
+  {
+    "customer_id": "CUST-00174",
+    "name": "Joseph Lopez",
+    "email": "customer174@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Salem",
+    "join_date": "2025-05-08"
+  },
+  {
+    "customer_id": "CUST-00175",
+    "name": "Jessica Martin",
+    "email": "customer175@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Trenton",
+    "join_date": "2025-04-15"
+  },
+  {
+    "customer_id": "CUST-00176",
+    "name": "Joseph Anderson",
+    "email": "customer176@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Naperville",
+    "join_date": "2024-04-28"
+  },
+  {
+    "customer_id": "CUST-00177",
+    "name": "Mark Lopez",
+    "email": "customer177@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Naperville",
+    "join_date": "2023-05-05"
+  },
+  {
+    "customer_id": "CUST-00178",
+    "name": "Margaret Anderson",
+    "email": "customer178@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "join_date": "2023-07-07"
+  },
+  {
+    "customer_id": "CUST-00179",
+    "name": "William Davis",
+    "email": "customer179@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Miami",
+    "join_date": "2023-09-15"
+  },
+  {
+    "customer_id": "CUST-00180",
+    "name": "Anthony Davis",
+    "email": "customer180@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Buffalo",
+    "join_date": "2024-11-03"
+  },
+  {
+    "customer_id": "CUST-00181",
+    "name": "Robert Jones",
+    "email": "customer181@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "join_date": "2024-05-28"
+  },
+  {
+    "customer_id": "CUST-00182",
+    "name": "Barbara Davis",
+    "email": "customer182@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "New York City",
+    "join_date": "2024-10-25"
+  },
+  {
+    "customer_id": "CUST-00183",
+    "name": "Nancy Wilson",
+    "email": "customer183@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Eugene",
+    "join_date": "2023-08-21"
+  },
+  {
+    "customer_id": "CUST-00184",
+    "name": "Thomas Jackson",
+    "email": "customer184@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2023-08-12"
+  },
+  {
+    "customer_id": "CUST-00185",
+    "name": "Mary Taylor",
+    "email": "customer185@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Nashville",
+    "join_date": "2024-09-09"
+  },
+  {
+    "customer_id": "CUST-00186",
+    "name": "Jessica Gonzalez",
+    "email": "customer186@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2025-05-23"
+  },
+  {
+    "customer_id": "CUST-00187",
+    "name": "John Hernandez",
+    "email": "customer187@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2023-10-31"
+  },
+  {
+    "customer_id": "CUST-00188",
+    "name": "Christopher Moore",
+    "email": "customer188@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Eugene",
+    "join_date": "2024-10-27"
+  },
+  {
+    "customer_id": "CUST-00189",
+    "name": "Thomas Martin",
+    "email": "customer189@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2025-05-31"
+  },
+  {
+    "customer_id": "CUST-00190",
+    "name": "Charles Moore",
+    "email": "customer190@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Ogden",
+    "join_date": "2024-03-16"
+  },
+  {
+    "customer_id": "CUST-00191",
+    "name": "Anthony Anderson",
+    "email": "customer191@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Virginia Beach",
+    "join_date": "2025-03-27"
+  },
+  {
+    "customer_id": "CUST-00192",
+    "name": "William Rodriguez",
+    "email": "customer192@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2025-02-05"
+  },
+  {
+    "customer_id": "CUST-00193",
+    "name": "Anthony Williams",
+    "email": "customer193@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "join_date": "2023-07-10"
+  },
+  {
+    "customer_id": "CUST-00194",
+    "name": "Sarah Johnson",
+    "email": "customer194@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Texas",
+    "city": "Austin",
+    "join_date": "2024-11-06"
+  },
+  {
+    "customer_id": "CUST-00195",
+    "name": "Matthew Wilson",
+    "email": "customer195@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2023-04-16"
+  },
+  {
+    "customer_id": "CUST-00196",
+    "name": "Christopher Taylor",
+    "email": "customer196@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2024-03-11"
+  },
+  {
+    "customer_id": "CUST-00197",
+    "name": "Patricia Lopez",
+    "email": "customer197@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "join_date": "2025-01-22"
+  },
+  {
+    "customer_id": "CUST-00198",
+    "name": "Betty Wilson",
+    "email": "customer198@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Provo",
+    "join_date": "2023-02-23"
+  },
+  {
+    "customer_id": "CUST-00199",
+    "name": "Matthew Martinez",
+    "email": "customer199@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2024-11-26"
+  },
+  {
+    "customer_id": "CUST-00200",
+    "name": "Christopher Gonzalez",
+    "email": "customer200@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2023-05-23"
+  },
+  {
+    "customer_id": "CUST-00201",
+    "name": "Thomas Miller",
+    "email": "customer201@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Miami",
+    "join_date": "2025-02-09"
+  },
+  {
+    "customer_id": "CUST-00202",
+    "name": "Elizabeth Hernandez",
+    "email": "customer202@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Richmond",
+    "join_date": "2023-06-23"
+  },
+  {
+    "customer_id": "CUST-00203",
+    "name": "Mary Williams",
+    "email": "customer203@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Portland",
+    "join_date": "2024-07-11"
+  },
+  {
+    "customer_id": "CUST-00204",
+    "name": "Joseph Wilson",
+    "email": "customer204@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Montgomery",
+    "join_date": "2024-07-13"
+  },
+  {
+    "customer_id": "CUST-00205",
+    "name": "Patricia Martinez",
+    "email": "customer205@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "join_date": "2025-09-23"
+  },
+  {
+    "customer_id": "CUST-00206",
+    "name": "Karen Johnson",
+    "email": "customer206@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2023-01-16"
+  },
+  {
+    "customer_id": "CUST-00207",
+    "name": "Matthew Rodriguez",
+    "email": "customer207@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2024-08-15"
+  },
+  {
+    "customer_id": "CUST-00208",
+    "name": "Susan Garcia",
+    "email": "customer208@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2023-09-22"
+  },
+  {
+    "customer_id": "CUST-00209",
+    "name": "Sarah Lopez",
+    "email": "customer209@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2023-05-28"
+  },
+  {
+    "customer_id": "CUST-00210",
+    "name": "Joseph Williams",
+    "email": "customer210@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2024-10-03"
+  },
+  {
+    "customer_id": "CUST-00211",
+    "name": "Susan Martinez",
+    "email": "customer211@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Memphis",
+    "join_date": "2023-08-24"
+  },
+  {
+    "customer_id": "CUST-00212",
+    "name": "Karen Anderson",
+    "email": "customer212@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Austin",
+    "join_date": "2025-01-11"
+  },
+  {
+    "customer_id": "CUST-00213",
+    "name": "Christopher Gonzalez",
+    "email": "customer213@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Las Vegas",
+    "join_date": "2023-06-11"
+  },
+  {
+    "customer_id": "CUST-00214",
+    "name": "William Garcia",
+    "email": "customer214@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Durham",
+    "join_date": "2023-06-06"
+  },
+  {
+    "customer_id": "CUST-00215",
+    "name": "Matthew Lopez",
+    "email": "customer215@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Scottsdale",
+    "join_date": "2024-12-20"
+  },
+  {
+    "customer_id": "CUST-00216",
+    "name": "Michael Garcia",
+    "email": "customer216@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "join_date": "2023-11-10"
+  },
+  {
+    "customer_id": "CUST-00217",
+    "name": "Matthew Jackson",
+    "email": "customer217@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Salem",
+    "join_date": "2025-07-08"
+  },
+  {
+    "customer_id": "CUST-00218",
+    "name": "John Thomas",
+    "email": "customer218@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "join_date": "2025-06-24"
+  },
+  {
+    "customer_id": "CUST-00219",
+    "name": "Thomas Williams",
+    "email": "customer219@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Grand Rapids",
+    "join_date": "2024-09-27"
+  },
+  {
+    "customer_id": "CUST-00220",
+    "name": "Anthony Martinez",
+    "email": "customer220@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Virginia Beach",
+    "join_date": "2023-06-07"
+  },
+  {
+    "customer_id": "CUST-00221",
+    "name": "Joseph Jackson",
+    "email": "customer221@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Scottsdale",
+    "join_date": "2023-03-26"
+  },
+  {
+    "customer_id": "CUST-00222",
+    "name": "Karen Thomas",
+    "email": "customer222@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2025-10-23"
+  },
+  {
+    "customer_id": "CUST-00223",
+    "name": "Mark Hernandez",
+    "email": "customer223@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Rochester",
+    "join_date": "2023-06-22"
+  },
+  {
+    "customer_id": "CUST-00224",
+    "name": "Joseph Taylor",
+    "email": "customer224@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New York",
+    "city": "Buffalo",
+    "join_date": "2023-11-22"
+  },
+  {
+    "customer_id": "CUST-00225",
+    "name": "Matthew Hernandez",
+    "email": "customer225@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2023-04-18"
+  },
+  {
+    "customer_id": "CUST-00226",
+    "name": "Lisa Gonzalez",
+    "email": "customer226@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Springfield",
+    "join_date": "2024-08-04"
+  },
+  {
+    "customer_id": "CUST-00227",
+    "name": "Karen Jones",
+    "email": "customer227@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "South Bend",
+    "join_date": "2024-11-13"
+  },
+  {
+    "customer_id": "CUST-00228",
+    "name": "Barbara Martinez",
+    "email": "customer228@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Scottsdale",
+    "join_date": "2025-03-13"
+  },
+  {
+    "customer_id": "CUST-00229",
+    "name": "Elizabeth Moore",
+    "email": "customer229@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2025-02-10"
+  },
+  {
+    "customer_id": "CUST-00230",
+    "name": "Nancy Taylor",
+    "email": "customer230@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "join_date": "2023-07-11"
+  },
+  {
+    "customer_id": "CUST-00231",
+    "name": "Elizabeth Garcia",
+    "email": "customer231@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Memphis",
+    "join_date": "2024-03-14"
+  },
+  {
+    "customer_id": "CUST-00232",
+    "name": "Robert Jones",
+    "email": "customer232@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Minneapolis",
+    "join_date": "2023-06-08"
+  },
+  {
+    "customer_id": "CUST-00233",
+    "name": "Anthony Taylor",
+    "email": "customer233@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Naperville",
+    "join_date": "2023-03-19"
+  },
+  {
+    "customer_id": "CUST-00234",
+    "name": "Robert Garcia",
+    "email": "customer234@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Milwaukee",
+    "join_date": "2024-01-06"
+  },
+  {
+    "customer_id": "CUST-00235",
+    "name": "Barbara Davis",
+    "email": "customer235@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "join_date": "2025-06-28"
+  },
+  {
+    "customer_id": "CUST-00236",
+    "name": "Linda Martinez",
+    "email": "customer236@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "join_date": "2025-08-18"
+  },
+  {
+    "customer_id": "CUST-00237",
+    "name": "Joseph Anderson",
+    "email": "customer237@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Stamford",
+    "join_date": "2024-07-31"
+  },
+  {
+    "customer_id": "CUST-00238",
+    "name": "Jennifer Miller",
+    "email": "customer238@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2023-10-11"
+  },
+  {
+    "customer_id": "CUST-00239",
+    "name": "Barbara Moore",
+    "email": "customer239@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Naperville",
+    "join_date": "2023-07-30"
+  },
+  {
+    "customer_id": "CUST-00240",
+    "name": "David Anderson",
+    "email": "customer240@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Washington",
+    "city": "Seattle",
+    "join_date": "2025-11-17"
+  },
+  {
+    "customer_id": "CUST-00241",
+    "name": "Linda Anderson",
+    "email": "customer241@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Newark",
+    "join_date": "2024-12-16"
+  },
+  {
+    "customer_id": "CUST-00242",
+    "name": "Barbara Davis",
+    "email": "customer242@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Las Vegas",
+    "join_date": "2025-03-01"
+  },
+  {
+    "customer_id": "CUST-00243",
+    "name": "Sandra Brown",
+    "email": "customer243@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Washington",
+    "city": "Seattle",
+    "join_date": "2024-11-17"
+  },
+  {
+    "customer_id": "CUST-00244",
+    "name": "Anthony Thomas",
+    "email": "customer244@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "join_date": "2023-10-12"
+  },
+  {
+    "customer_id": "CUST-00245",
+    "name": "John Smith",
+    "email": "customer245@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Arlington",
+    "join_date": "2024-06-08"
+  },
+  {
+    "customer_id": "CUST-00246",
+    "name": "Karen Taylor",
+    "email": "customer246@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "join_date": "2025-05-16"
+  },
+  {
+    "customer_id": "CUST-00247",
+    "name": "Patricia Johnson",
+    "email": "customer247@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Provo",
+    "join_date": "2024-05-03"
+  },
+  {
+    "customer_id": "CUST-00248",
+    "name": "Patricia Thomas",
+    "email": "customer248@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Huntsville",
+    "join_date": "2023-02-03"
+  },
+  {
+    "customer_id": "CUST-00249",
+    "name": "James Martin",
+    "email": "customer249@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Orlando",
+    "join_date": "2024-12-23"
+  },
+  {
+    "customer_id": "CUST-00250",
+    "name": "Lisa Williams",
+    "email": "customer250@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "join_date": "2025-01-08"
+  },
+  {
+    "customer_id": "CUST-00251",
+    "name": "Thomas Moore",
+    "email": "customer251@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Scottsdale",
+    "join_date": "2023-02-11"
+  },
+  {
+    "customer_id": "CUST-00252",
+    "name": "Barbara Rodriguez",
+    "email": "customer252@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Virginia Beach",
+    "join_date": "2023-02-03"
+  },
+  {
+    "customer_id": "CUST-00253",
+    "name": "Lisa Brown",
+    "email": "customer253@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Springfield",
+    "join_date": "2024-11-11"
+  },
+  {
+    "customer_id": "CUST-00254",
+    "name": "Anthony Garcia",
+    "email": "customer254@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Albany",
+    "join_date": "2025-08-09"
+  },
+  {
+    "customer_id": "CUST-00255",
+    "name": "John Anderson",
+    "email": "customer255@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2023-03-17"
+  },
+  {
+    "customer_id": "CUST-00256",
+    "name": "Mark Johnson",
+    "email": "customer256@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Columbus",
+    "join_date": "2024-10-08"
+  },
+  {
+    "customer_id": "CUST-00257",
+    "name": "Sarah Thomas",
+    "email": "customer257@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2024-06-02"
+  },
+  {
+    "customer_id": "CUST-00258",
+    "name": "Barbara Johnson",
+    "email": "customer258@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Ogden",
+    "join_date": "2024-11-10"
+  },
+  {
+    "customer_id": "CUST-00259",
+    "name": "Richard Anderson",
+    "email": "customer259@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Springfield",
+    "join_date": "2025-03-02"
+  },
+  {
+    "customer_id": "CUST-00260",
+    "name": "Barbara Taylor",
+    "email": "customer260@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cleveland",
+    "join_date": "2024-06-30"
+  },
+  {
+    "customer_id": "CUST-00261",
+    "name": "Karen Garcia",
+    "email": "customer261@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Colorado Springs",
+    "join_date": "2024-08-24"
+  },
+  {
+    "customer_id": "CUST-00262",
+    "name": "Elizabeth Martinez",
+    "email": "customer262@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2025-07-02"
+  },
+  {
+    "customer_id": "CUST-00263",
+    "name": "Joseph Johnson",
+    "email": "customer263@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2024-12-23"
+  },
+  {
+    "customer_id": "CUST-00264",
+    "name": "Mary Williams",
+    "email": "customer264@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Durham",
+    "join_date": "2025-04-11"
+  },
+  {
+    "customer_id": "CUST-00265",
+    "name": "James Jones",
+    "email": "customer265@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Green Bay",
+    "join_date": "2025-06-16"
+  },
+  {
+    "customer_id": "CUST-00266",
+    "name": "Charles Lopez",
+    "email": "customer266@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Portland",
+    "join_date": "2025-01-11"
+  },
+  {
+    "customer_id": "CUST-00267",
+    "name": "Lisa Anderson",
+    "email": "customer267@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Nashville",
+    "join_date": "2025-01-29"
+  },
+  {
+    "customer_id": "CUST-00268",
+    "name": "Thomas Lopez",
+    "email": "customer268@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Minneapolis",
+    "join_date": "2025-03-26"
+  },
+  {
+    "customer_id": "CUST-00269",
+    "name": "Patricia Smith",
+    "email": "customer269@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "join_date": "2024-01-17"
+  },
+  {
+    "customer_id": "CUST-00270",
+    "name": "Patricia Rodriguez",
+    "email": "customer270@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Memphis",
+    "join_date": "2024-06-17"
+  },
+  {
+    "customer_id": "CUST-00271",
+    "name": "Sandra Thomas",
+    "email": "customer271@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2024-02-14"
+  },
+  {
+    "customer_id": "CUST-00272",
+    "name": "Mark Anderson",
+    "email": "customer272@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Portland",
+    "join_date": "2023-06-29"
+  },
+  {
+    "customer_id": "CUST-00273",
+    "name": "Sarah Moore",
+    "email": "customer273@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "join_date": "2024-08-17"
+  },
+  {
+    "customer_id": "CUST-00274",
+    "name": "Daniel Garcia",
+    "email": "customer274@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "join_date": "2025-01-10"
+  },
+  {
+    "customer_id": "CUST-00275",
+    "name": "Linda Thomas",
+    "email": "customer275@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New York",
+    "city": "Buffalo",
+    "join_date": "2023-02-23"
+  },
+  {
+    "customer_id": "CUST-00276",
+    "name": "Betty Moore",
+    "email": "customer276@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Green Bay",
+    "join_date": "2023-09-23"
+  },
+  {
+    "customer_id": "CUST-00277",
+    "name": "Daniel Thomas",
+    "email": "customer277@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Diego",
+    "join_date": "2025-04-21"
+  },
+  {
+    "customer_id": "CUST-00278",
+    "name": "William Williams",
+    "email": "customer278@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Nashville",
+    "join_date": "2025-07-10"
+  },
+  {
+    "customer_id": "CUST-00279",
+    "name": "Mark Moore",
+    "email": "customer279@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Huntsville",
+    "join_date": "2024-01-08"
+  },
+  {
+    "customer_id": "CUST-00280",
+    "name": "Mary Brown",
+    "email": "customer280@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Trenton",
+    "join_date": "2025-11-27"
+  },
+  {
+    "customer_id": "CUST-00281",
+    "name": "Sandra Davis",
+    "email": "customer281@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2024-12-09"
+  },
+  {
+    "customer_id": "CUST-00282",
+    "name": "Sarah Rodriguez",
+    "email": "customer282@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Springfield",
+    "join_date": "2023-09-14"
+  },
+  {
+    "customer_id": "CUST-00283",
+    "name": "Charles Garcia",
+    "email": "customer283@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Green Bay",
+    "join_date": "2023-11-12"
+  },
+  {
+    "customer_id": "CUST-00284",
+    "name": "Christopher Johnson",
+    "email": "customer284@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Florida",
+    "city": "Tampa",
+    "join_date": "2023-02-28"
+  },
+  {
+    "customer_id": "CUST-00285",
+    "name": "Matthew Jackson",
+    "email": "customer285@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "California",
+    "city": "San Diego",
+    "join_date": "2025-05-03"
+  },
+  {
+    "customer_id": "CUST-00286",
+    "name": "Elizabeth Thomas",
+    "email": "customer286@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2024-05-16"
+  },
+  {
+    "customer_id": "CUST-00287",
+    "name": "Mary Garcia",
+    "email": "customer287@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "join_date": "2025-06-19"
+  },
+  {
+    "customer_id": "CUST-00288",
+    "name": "Karen Jones",
+    "email": "customer288@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Richmond",
+    "join_date": "2024-10-02"
+  },
+  {
+    "customer_id": "CUST-00289",
+    "name": "Robert Lopez",
+    "email": "customer289@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "join_date": "2025-11-20"
+  },
+  {
+    "customer_id": "CUST-00290",
+    "name": "David Anderson",
+    "email": "customer290@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Washington",
+    "city": "Seattle",
+    "join_date": "2024-05-22"
+  },
+  {
+    "customer_id": "CUST-00291",
+    "name": "Richard Martin",
+    "email": "customer291@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "New York City",
+    "join_date": "2025-05-06"
+  },
+  {
+    "customer_id": "CUST-00292",
+    "name": "Nancy Hernandez",
+    "email": "customer292@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Cambridge",
+    "join_date": "2024-01-24"
+  },
+  {
+    "customer_id": "CUST-00293",
+    "name": "Mark Martinez",
+    "email": "customer293@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Trenton",
+    "join_date": "2025-10-15"
+  },
+  {
+    "customer_id": "CUST-00294",
+    "name": "Linda Miller",
+    "email": "customer294@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Jose",
+    "join_date": "2024-12-23"
+  },
+  {
+    "customer_id": "CUST-00295",
+    "name": "Mark Thomas",
+    "email": "customer295@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Diego",
+    "join_date": "2024-08-08"
+  },
+  {
+    "customer_id": "CUST-00296",
+    "name": "Mark Rodriguez",
+    "email": "customer296@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "join_date": "2025-01-19"
+  },
+  {
+    "customer_id": "CUST-00297",
+    "name": "Christopher Moore",
+    "email": "customer297@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "join_date": "2024-02-03"
+  },
+  {
+    "customer_id": "CUST-00298",
+    "name": "Thomas Anderson",
+    "email": "customer298@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2024-07-26"
+  },
+  {
+    "customer_id": "CUST-00299",
+    "name": "Betty Hernandez",
+    "email": "customer299@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Portland",
+    "join_date": "2025-01-18"
+  },
+  {
+    "customer_id": "CUST-00300",
+    "name": "Thomas Johnson",
+    "email": "customer300@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "join_date": "2023-04-03"
+  },
+  {
+    "customer_id": "CUST-00301",
+    "name": "Jessica Taylor",
+    "email": "customer301@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Salem",
+    "join_date": "2025-07-24"
+  },
+  {
+    "customer_id": "CUST-00302",
+    "name": "Sandra Martin",
+    "email": "customer302@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2024-10-14"
+  },
+  {
+    "customer_id": "CUST-00303",
+    "name": "Elizabeth Jackson",
+    "email": "customer303@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Trenton",
+    "join_date": "2024-11-19"
+  },
+  {
+    "customer_id": "CUST-00304",
+    "name": "Anthony Smith",
+    "email": "customer304@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Huntsville",
+    "join_date": "2025-01-24"
+  },
+  {
+    "customer_id": "CUST-00305",
+    "name": "Christopher Martinez",
+    "email": "customer305@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Indianapolis",
+    "join_date": "2023-02-24"
+  },
+  {
+    "customer_id": "CUST-00306",
+    "name": "Matthew Jackson",
+    "email": "customer306@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Durham",
+    "join_date": "2024-04-11"
+  },
+  {
+    "customer_id": "CUST-00307",
+    "name": "Charles Martin",
+    "email": "customer307@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Tucson",
+    "join_date": "2025-02-17"
+  },
+  {
+    "customer_id": "CUST-00308",
+    "name": "Daniel Brown",
+    "email": "customer308@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Orlando",
+    "join_date": "2024-01-26"
+  },
+  {
+    "customer_id": "CUST-00309",
+    "name": "Susan Miller",
+    "email": "customer309@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2025-04-20"
+  },
+  {
+    "customer_id": "CUST-00310",
+    "name": "Robert Taylor",
+    "email": "customer310@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Huntsville",
+    "join_date": "2024-02-29"
+  },
+  {
+    "customer_id": "CUST-00311",
+    "name": "William Garcia",
+    "email": "customer311@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "join_date": "2025-07-30"
+  },
+  {
+    "customer_id": "CUST-00312",
+    "name": "Margaret Rodriguez",
+    "email": "customer312@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2025-09-18"
+  },
+  {
+    "customer_id": "CUST-00313",
+    "name": "Linda Martinez",
+    "email": "customer313@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Cambridge",
+    "join_date": "2024-08-14"
+  },
+  {
+    "customer_id": "CUST-00314",
+    "name": "Barbara Moore",
+    "email": "customer314@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "join_date": "2024-07-14"
+  },
+  {
+    "customer_id": "CUST-00315",
+    "name": "Richard Gonzalez",
+    "email": "customer315@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Naperville",
+    "join_date": "2024-12-07"
+  },
+  {
+    "customer_id": "CUST-00316",
+    "name": "Daniel Williams",
+    "email": "customer316@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2024-12-10"
+  },
+  {
+    "customer_id": "CUST-00317",
+    "name": "Michael Miller",
+    "email": "customer317@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Montgomery",
+    "join_date": "2024-07-09"
+  },
+  {
+    "customer_id": "CUST-00318",
+    "name": "Christopher Davis",
+    "email": "customer318@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Columbus",
+    "join_date": "2024-05-11"
+  },
+  {
+    "customer_id": "CUST-00319",
+    "name": "Linda Johnson",
+    "email": "customer319@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Boulder",
+    "join_date": "2023-07-25"
+  },
+  {
+    "customer_id": "CUST-00320",
+    "name": "Lisa Jones",
+    "email": "customer320@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Durham",
+    "join_date": "2023-01-11"
+  },
+  {
+    "customer_id": "CUST-00321",
+    "name": "Mark Thomas",
+    "email": "customer321@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Trenton",
+    "join_date": "2025-09-04"
+  },
+  {
+    "customer_id": "CUST-00322",
+    "name": "Mary Williams",
+    "email": "customer322@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "New Haven",
+    "join_date": "2024-04-20"
+  },
+  {
+    "customer_id": "CUST-00323",
+    "name": "Jennifer Johnson",
+    "email": "customer323@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Eugene",
+    "join_date": "2025-03-24"
+  },
+  {
+    "customer_id": "CUST-00324",
+    "name": "Sandra Martinez",
+    "email": "customer324@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2023-03-18"
+  },
+  {
+    "customer_id": "CUST-00325",
+    "name": "Sandra Hernandez",
+    "email": "customer325@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Washington",
+    "city": "Spokane",
+    "join_date": "2024-08-05"
+  },
+  {
+    "customer_id": "CUST-00326",
+    "name": "Mark Jones",
+    "email": "customer326@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Huntsville",
+    "join_date": "2025-10-29"
+  },
+  {
+    "customer_id": "CUST-00327",
+    "name": "William Garcia",
+    "email": "customer327@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "join_date": "2025-07-28"
+  },
+  {
+    "customer_id": "CUST-00328",
+    "name": "William Martinez",
+    "email": "customer328@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Indianapolis",
+    "join_date": "2024-01-31"
+  },
+  {
+    "customer_id": "CUST-00329",
+    "name": "Anthony Wilson",
+    "email": "customer329@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2025-11-21"
+  },
+  {
+    "customer_id": "CUST-00330",
+    "name": "Jennifer Jones",
+    "email": "customer330@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Springfield",
+    "join_date": "2025-09-04"
+  },
+  {
+    "customer_id": "CUST-00331",
+    "name": "Linda Anderson",
+    "email": "customer331@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Columbus",
+    "join_date": "2024-06-30"
+  },
+  {
+    "customer_id": "CUST-00332",
+    "name": "James Rodriguez",
+    "email": "customer332@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Grand Rapids",
+    "join_date": "2025-01-06"
+  },
+  {
+    "customer_id": "CUST-00333",
+    "name": "Jennifer Gonzalez",
+    "email": "customer333@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "New York City",
+    "join_date": "2025-10-26"
+  },
+  {
+    "customer_id": "CUST-00334",
+    "name": "Elizabeth Lopez",
+    "email": "customer334@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Indianapolis",
+    "join_date": "2024-03-28"
+  },
+  {
+    "customer_id": "CUST-00335",
+    "name": "Nancy Martin",
+    "email": "customer335@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Cambridge",
+    "join_date": "2025-02-04"
+  },
+  {
+    "customer_id": "CUST-00336",
+    "name": "Matthew Moore",
+    "email": "customer336@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Huntsville",
+    "join_date": "2024-03-23"
+  },
+  {
+    "customer_id": "CUST-00337",
+    "name": "Thomas Lopez",
+    "email": "customer337@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Miami",
+    "join_date": "2023-06-09"
+  },
+  {
+    "customer_id": "CUST-00338",
+    "name": "Robert Garcia",
+    "email": "customer338@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Francisco",
+    "join_date": "2024-11-02"
+  },
+  {
+    "customer_id": "CUST-00339",
+    "name": "Jessica Williams",
+    "email": "customer339@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Texas",
+    "city": "Dallas",
+    "join_date": "2025-11-11"
+  },
+  {
+    "customer_id": "CUST-00340",
+    "name": "Susan Anderson",
+    "email": "customer340@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "San Antonio",
+    "join_date": "2023-04-29"
+  },
+  {
+    "customer_id": "CUST-00341",
+    "name": "Richard Rodriguez",
+    "email": "customer341@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Montgomery",
+    "join_date": "2023-01-07"
+  },
+  {
+    "customer_id": "CUST-00342",
+    "name": "Barbara Williams",
+    "email": "customer342@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "join_date": "2023-05-04"
+  },
+  {
+    "customer_id": "CUST-00343",
+    "name": "Jennifer Jones",
+    "email": "customer343@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Las Vegas",
+    "join_date": "2025-05-10"
+  },
+  {
+    "customer_id": "CUST-00344",
+    "name": "Sandra Gonzalez",
+    "email": "customer344@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Saint Paul",
+    "join_date": "2025-02-08"
+  },
+  {
+    "customer_id": "CUST-00345",
+    "name": "Robert Lopez",
+    "email": "customer345@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Boulder",
+    "join_date": "2023-08-31"
+  },
+  {
+    "customer_id": "CUST-00346",
+    "name": "Nancy Davis",
+    "email": "customer346@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "join_date": "2023-01-08"
+  },
+  {
+    "customer_id": "CUST-00347",
+    "name": "Sarah Wilson",
+    "email": "customer347@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Washington",
+    "city": "Tacoma",
+    "join_date": "2025-02-15"
+  },
+  {
+    "customer_id": "CUST-00348",
+    "name": "David Miller",
+    "email": "customer348@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Cambridge",
+    "join_date": "2023-08-20"
+  },
+  {
+    "customer_id": "CUST-00349",
+    "name": "Matthew Smith",
+    "email": "customer349@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Ogden",
+    "join_date": "2024-05-07"
+  },
+  {
+    "customer_id": "CUST-00350",
+    "name": "Joseph Martin",
+    "email": "customer350@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "New York City",
+    "join_date": "2023-04-10"
+  },
+  {
+    "customer_id": "CUST-00351",
+    "name": "Linda Moore",
+    "email": "customer351@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Miami",
+    "join_date": "2024-03-20"
+  },
+  {
+    "customer_id": "CUST-00352",
+    "name": "Linda Jackson",
+    "email": "customer352@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Salem",
+    "join_date": "2024-10-15"
+  },
+  {
+    "customer_id": "CUST-00353",
+    "name": "Lisa Taylor",
+    "email": "customer353@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cleveland",
+    "join_date": "2024-03-28"
+  },
+  {
+    "customer_id": "CUST-00354",
+    "name": "Christopher Garcia",
+    "email": "customer354@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "join_date": "2025-05-24"
+  },
+  {
+    "customer_id": "CUST-00355",
+    "name": "Lisa Gonzalez",
+    "email": "customer355@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Texas",
+    "city": "Austin",
+    "join_date": "2024-10-14"
+  },
+  {
+    "customer_id": "CUST-00356",
+    "name": "Jennifer Moore",
+    "email": "customer356@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Virginia Beach",
+    "join_date": "2025-08-27"
+  },
+  {
+    "customer_id": "CUST-00357",
+    "name": "Robert Anderson",
+    "email": "customer357@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Cambridge",
+    "join_date": "2023-04-29"
+  },
+  {
+    "customer_id": "CUST-00358",
+    "name": "Richard Davis",
+    "email": "customer358@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Arlington",
+    "join_date": "2024-06-06"
+  },
+  {
+    "customer_id": "CUST-00359",
+    "name": "Joseph Lopez",
+    "email": "customer359@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Stamford",
+    "join_date": "2023-07-09"
+  },
+  {
+    "customer_id": "CUST-00360",
+    "name": "Karen Martin",
+    "email": "customer360@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Albany",
+    "join_date": "2023-03-22"
+  },
+  {
+    "customer_id": "CUST-00361",
+    "name": "Sarah Miller",
+    "email": "customer361@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Salem",
+    "join_date": "2025-09-08"
+  },
+  {
+    "customer_id": "CUST-00362",
+    "name": "James Miller",
+    "email": "customer362@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "New Haven",
+    "join_date": "2024-01-25"
+  },
+  {
+    "customer_id": "CUST-00363",
+    "name": "Daniel Martin",
+    "email": "customer363@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Colorado Springs",
+    "join_date": "2024-02-23"
+  },
+  {
+    "customer_id": "CUST-00364",
+    "name": "Elizabeth Gonzalez",
+    "email": "customer364@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2025-08-12"
+  },
+  {
+    "customer_id": "CUST-00365",
+    "name": "Mark Thomas",
+    "email": "customer365@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2025-08-12"
+  },
+  {
+    "customer_id": "CUST-00366",
+    "name": "Anthony Hernandez",
+    "email": "customer366@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Ogden",
+    "join_date": "2024-02-21"
+  },
+  {
+    "customer_id": "CUST-00367",
+    "name": "Margaret Davis",
+    "email": "customer367@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2023-10-26"
+  },
+  {
+    "customer_id": "CUST-00368",
+    "name": "Christopher Wilson",
+    "email": "customer368@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Washington",
+    "city": "Spokane",
+    "join_date": "2024-08-27"
+  },
+  {
+    "customer_id": "CUST-00369",
+    "name": "Christopher Davis",
+    "email": "customer369@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Cambridge",
+    "join_date": "2025-10-19"
+  },
+  {
+    "customer_id": "CUST-00370",
+    "name": "Charles Thomas",
+    "email": "customer370@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2025-08-01"
+  },
+  {
+    "customer_id": "CUST-00371",
+    "name": "Nancy Moore",
+    "email": "customer371@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Tampa",
+    "join_date": "2025-09-27"
+  },
+  {
+    "customer_id": "CUST-00372",
+    "name": "Thomas Johnson",
+    "email": "customer372@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2023-06-02"
+  },
+  {
+    "customer_id": "CUST-00373",
+    "name": "Anthony Davis",
+    "email": "customer373@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "join_date": "2023-05-20"
+  },
+  {
+    "customer_id": "CUST-00374",
+    "name": "Barbara Johnson",
+    "email": "customer374@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Buffalo",
+    "join_date": "2025-09-16"
+  },
+  {
+    "customer_id": "CUST-00375",
+    "name": "Susan Smith",
+    "email": "customer375@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Houston",
+    "join_date": "2023-02-04"
+  },
+  {
+    "customer_id": "CUST-00376",
+    "name": "Anthony Wilson",
+    "email": "customer376@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2024-01-03"
+  },
+  {
+    "customer_id": "CUST-00377",
+    "name": "Karen Taylor",
+    "email": "customer377@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Francisco",
+    "join_date": "2024-05-31"
+  },
+  {
+    "customer_id": "CUST-00378",
+    "name": "Richard Anderson",
+    "email": "customer378@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2024-05-13"
+  },
+  {
+    "customer_id": "CUST-00379",
+    "name": "John Johnson",
+    "email": "customer379@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Stamford",
+    "join_date": "2023-07-11"
+  },
+  {
+    "customer_id": "CUST-00380",
+    "name": "Mary Smith",
+    "email": "customer380@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Richmond",
+    "join_date": "2023-12-17"
+  },
+  {
+    "customer_id": "CUST-00381",
+    "name": "William Jackson",
+    "email": "customer381@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2023-07-15"
+  },
+  {
+    "customer_id": "CUST-00382",
+    "name": "Daniel Jackson",
+    "email": "customer382@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Portland",
+    "join_date": "2025-08-31"
+  },
+  {
+    "customer_id": "CUST-00383",
+    "name": "David Moore",
+    "email": "customer383@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2023-03-09"
+  },
+  {
+    "customer_id": "CUST-00384",
+    "name": "Christopher Jones",
+    "email": "customer384@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2025-03-26"
+  },
+  {
+    "customer_id": "CUST-00385",
+    "name": "Christopher Gonzalez",
+    "email": "customer385@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Washington",
+    "city": "Seattle",
+    "join_date": "2024-11-10"
+  },
+  {
+    "customer_id": "CUST-00386",
+    "name": "Daniel Williams",
+    "email": "customer386@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2025-10-22"
+  },
+  {
+    "customer_id": "CUST-00387",
+    "name": "Anthony Williams",
+    "email": "customer387@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2024-11-28"
+  },
+  {
+    "customer_id": "CUST-00388",
+    "name": "Betty Anderson",
+    "email": "customer388@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "join_date": "2025-10-01"
+  },
+  {
+    "customer_id": "CUST-00389",
+    "name": "Susan Garcia",
+    "email": "customer389@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Stamford",
+    "join_date": "2025-02-17"
+  },
+  {
+    "customer_id": "CUST-00390",
+    "name": "Linda Williams",
+    "email": "customer390@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Ogden",
+    "join_date": "2023-06-18"
+  },
+  {
+    "customer_id": "CUST-00391",
+    "name": "Charles Jones",
+    "email": "customer391@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cleveland",
+    "join_date": "2025-03-08"
+  },
+  {
+    "customer_id": "CUST-00392",
+    "name": "Elizabeth Anderson",
+    "email": "customer392@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Detroit",
+    "join_date": "2025-01-07"
+  },
+  {
+    "customer_id": "CUST-00393",
+    "name": "Susan Anderson",
+    "email": "customer393@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2025-11-15"
+  },
+  {
+    "customer_id": "CUST-00394",
+    "name": "Sarah Williams",
+    "email": "customer394@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Houston",
+    "join_date": "2024-10-26"
+  },
+  {
+    "customer_id": "CUST-00395",
+    "name": "Matthew Williams",
+    "email": "customer395@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Austin",
+    "join_date": "2024-05-12"
+  },
+  {
+    "customer_id": "CUST-00396",
+    "name": "David Martinez",
+    "email": "customer396@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "join_date": "2024-07-03"
+  },
+  {
+    "customer_id": "CUST-00397",
+    "name": "David Wilson",
+    "email": "customer397@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Atlanta",
+    "join_date": "2024-09-05"
+  },
+  {
+    "customer_id": "CUST-00398",
+    "name": "Linda Thomas",
+    "email": "customer398@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Austin",
+    "join_date": "2024-02-05"
+  },
+  {
+    "customer_id": "CUST-00399",
+    "name": "Richard Hernandez",
+    "email": "customer399@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Dallas",
+    "join_date": "2025-02-17"
+  },
+  {
+    "customer_id": "CUST-00400",
+    "name": "Anthony Martin",
+    "email": "customer400@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Saint Paul",
+    "join_date": "2023-10-06"
+  },
+  {
+    "customer_id": "CUST-00401",
+    "name": "Michael Thomas",
+    "email": "customer401@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Grand Rapids",
+    "join_date": "2024-10-05"
+  },
+  {
+    "customer_id": "CUST-00402",
+    "name": "Daniel Thomas",
+    "email": "customer402@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Jersey City",
+    "join_date": "2024-05-11"
+  },
+  {
+    "customer_id": "CUST-00403",
+    "name": "Richard Lopez",
+    "email": "customer403@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Saint Paul",
+    "join_date": "2023-08-22"
+  },
+  {
+    "customer_id": "CUST-00404",
+    "name": "Matthew Moore",
+    "email": "customer404@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2023-02-25"
+  },
+  {
+    "customer_id": "CUST-00405",
+    "name": "Elizabeth Williams",
+    "email": "customer405@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2025-04-17"
+  },
+  {
+    "customer_id": "CUST-00406",
+    "name": "David Jones",
+    "email": "customer406@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2025-05-16"
+  },
+  {
+    "customer_id": "CUST-00407",
+    "name": "Jessica Jackson",
+    "email": "customer407@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Texas",
+    "city": "San Antonio",
+    "join_date": "2025-03-31"
+  },
+  {
+    "customer_id": "CUST-00408",
+    "name": "Barbara Moore",
+    "email": "customer408@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Nashville",
+    "join_date": "2023-06-24"
+  },
+  {
+    "customer_id": "CUST-00409",
+    "name": "Barbara Garcia",
+    "email": "customer409@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "join_date": "2023-04-01"
+  },
+  {
+    "customer_id": "CUST-00410",
+    "name": "Patricia Rodriguez",
+    "email": "customer410@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "join_date": "2024-03-30"
+  },
+  {
+    "customer_id": "CUST-00411",
+    "name": "Matthew Jackson",
+    "email": "customer411@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Jersey City",
+    "join_date": "2025-10-21"
+  },
+  {
+    "customer_id": "CUST-00412",
+    "name": "Elizabeth Wilson",
+    "email": "customer412@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2023-06-25"
+  },
+  {
+    "customer_id": "CUST-00413",
+    "name": "Elizabeth Hernandez",
+    "email": "customer413@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Ogden",
+    "join_date": "2025-07-21"
+  },
+  {
+    "customer_id": "CUST-00414",
+    "name": "Patricia Anderson",
+    "email": "customer414@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "join_date": "2025-07-15"
+  },
+  {
+    "customer_id": "CUST-00415",
+    "name": "Daniel Brown",
+    "email": "customer415@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Springfield",
+    "join_date": "2023-02-16"
+  },
+  {
+    "customer_id": "CUST-00416",
+    "name": "Jennifer Davis",
+    "email": "customer416@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Indianapolis",
+    "join_date": "2025-11-22"
+  },
+  {
+    "customer_id": "CUST-00417",
+    "name": "Susan Anderson",
+    "email": "customer417@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "join_date": "2024-04-19"
+  },
+  {
+    "customer_id": "CUST-00418",
+    "name": "Lisa Wilson",
+    "email": "customer418@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2025-03-21"
+  },
+  {
+    "customer_id": "CUST-00419",
+    "name": "Joseph Jackson",
+    "email": "customer419@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Boulder",
+    "join_date": "2025-05-29"
+  },
+  {
+    "customer_id": "CUST-00420",
+    "name": "Matthew Williams",
+    "email": "customer420@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Dallas",
+    "join_date": "2023-07-28"
+  },
+  {
+    "customer_id": "CUST-00421",
+    "name": "Patricia Rodriguez",
+    "email": "customer421@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "New Haven",
+    "join_date": "2025-09-29"
+  },
+  {
+    "customer_id": "CUST-00422",
+    "name": "Christopher Brown",
+    "email": "customer422@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2024-12-13"
+  },
+  {
+    "customer_id": "CUST-00423",
+    "name": "Lisa Martinez",
+    "email": "customer423@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Duluth",
+    "join_date": "2023-06-23"
+  },
+  {
+    "customer_id": "CUST-00424",
+    "name": "Patricia Garcia",
+    "email": "customer424@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2025-02-03"
+  },
+  {
+    "customer_id": "CUST-00425",
+    "name": "Robert Jackson",
+    "email": "customer425@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "join_date": "2025-02-24"
+  },
+  {
+    "customer_id": "CUST-00426",
+    "name": "Daniel Garcia",
+    "email": "customer426@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Savannah",
+    "join_date": "2023-12-08"
+  },
+  {
+    "customer_id": "CUST-00427",
+    "name": "Anthony Anderson",
+    "email": "customer427@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "join_date": "2023-04-20"
+  },
+  {
+    "customer_id": "CUST-00428",
+    "name": "Anthony Gonzalez",
+    "email": "customer428@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Springfield",
+    "join_date": "2025-11-01"
+  },
+  {
+    "customer_id": "CUST-00429",
+    "name": "Daniel Anderson",
+    "email": "customer429@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Arlington",
+    "join_date": "2025-09-27"
+  },
+  {
+    "customer_id": "CUST-00430",
+    "name": "Linda Martinez",
+    "email": "customer430@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New York",
+    "city": "New York City",
+    "join_date": "2023-03-08"
+  },
+  {
+    "customer_id": "CUST-00431",
+    "name": "Matthew Anderson",
+    "email": "customer431@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "join_date": "2025-10-11"
+  },
+  {
+    "customer_id": "CUST-00432",
+    "name": "Sarah Lopez",
+    "email": "customer432@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Phoenix",
+    "join_date": "2023-03-27"
+  },
+  {
+    "customer_id": "CUST-00433",
+    "name": "Patricia Davis",
+    "email": "customer433@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Nashville",
+    "join_date": "2024-09-01"
+  },
+  {
+    "customer_id": "CUST-00434",
+    "name": "Anthony Williams",
+    "email": "customer434@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2025-06-18"
+  },
+  {
+    "customer_id": "CUST-00435",
+    "name": "Nancy Jackson",
+    "email": "customer435@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "join_date": "2024-12-19"
+  },
+  {
+    "customer_id": "CUST-00436",
+    "name": "Michael Miller",
+    "email": "customer436@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2023-05-02"
+  },
+  {
+    "customer_id": "CUST-00437",
+    "name": "Jennifer Hernandez",
+    "email": "customer437@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2024-08-22"
+  },
+  {
+    "customer_id": "CUST-00438",
+    "name": "Thomas Brown",
+    "email": "customer438@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2023-10-05"
+  },
+  {
+    "customer_id": "CUST-00439",
+    "name": "Robert Jones",
+    "email": "customer439@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Texas",
+    "city": "Austin",
+    "join_date": "2024-05-26"
+  },
+  {
+    "customer_id": "CUST-00440",
+    "name": "Matthew Gonzalez",
+    "email": "customer440@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Florida",
+    "city": "Tampa",
+    "join_date": "2025-09-29"
+  },
+  {
+    "customer_id": "CUST-00441",
+    "name": "Susan Gonzalez",
+    "email": "customer441@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2025-07-14"
+  },
+  {
+    "customer_id": "CUST-00442",
+    "name": "Nancy Rodriguez",
+    "email": "customer442@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Denver",
+    "join_date": "2025-01-25"
+  },
+  {
+    "customer_id": "CUST-00443",
+    "name": "Margaret Williams",
+    "email": "customer443@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Richmond",
+    "join_date": "2025-07-27"
+  },
+  {
+    "customer_id": "CUST-00444",
+    "name": "Susan Miller",
+    "email": "customer444@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Naperville",
+    "join_date": "2025-10-10"
+  },
+  {
+    "customer_id": "CUST-00445",
+    "name": "Christopher Jones",
+    "email": "customer445@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2025-09-20"
+  },
+  {
+    "customer_id": "CUST-00446",
+    "name": "Charles Anderson",
+    "email": "customer446@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Indianapolis",
+    "join_date": "2023-02-03"
+  },
+  {
+    "customer_id": "CUST-00447",
+    "name": "James Wilson",
+    "email": "customer447@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "join_date": "2024-02-19"
+  },
+  {
+    "customer_id": "CUST-00448",
+    "name": "Sandra Rodriguez",
+    "email": "customer448@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Tampa",
+    "join_date": "2023-07-11"
+  },
+  {
+    "customer_id": "CUST-00449",
+    "name": "Mark Garcia",
+    "email": "customer449@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Detroit",
+    "join_date": "2023-04-17"
+  },
+  {
+    "customer_id": "CUST-00450",
+    "name": "Matthew Davis",
+    "email": "customer450@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Montgomery",
+    "join_date": "2025-05-29"
+  },
+  {
+    "customer_id": "CUST-00451",
+    "name": "Jessica Williams",
+    "email": "customer451@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Denver",
+    "join_date": "2023-09-29"
+  },
+  {
+    "customer_id": "CUST-00452",
+    "name": "James Hernandez",
+    "email": "customer452@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2023-09-04"
+  },
+  {
+    "customer_id": "CUST-00453",
+    "name": "Linda Gonzalez",
+    "email": "customer453@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2023-07-02"
+  },
+  {
+    "customer_id": "CUST-00454",
+    "name": "Elizabeth Jones",
+    "email": "customer454@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Diego",
+    "join_date": "2025-02-22"
+  },
+  {
+    "customer_id": "CUST-00455",
+    "name": "Christopher Smith",
+    "email": "customer455@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Orlando",
+    "join_date": "2023-12-03"
+  },
+  {
+    "customer_id": "CUST-00456",
+    "name": "Nancy Jones",
+    "email": "customer456@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Durham",
+    "join_date": "2025-04-23"
+  },
+  {
+    "customer_id": "CUST-00457",
+    "name": "Robert Brown",
+    "email": "customer457@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Atlanta",
+    "join_date": "2025-02-25"
+  },
+  {
+    "customer_id": "CUST-00458",
+    "name": "Linda Rodriguez",
+    "email": "customer458@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Saint Paul",
+    "join_date": "2023-06-22"
+  },
+  {
+    "customer_id": "CUST-00459",
+    "name": "Karen Martinez",
+    "email": "customer459@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2023-02-24"
+  },
+  {
+    "customer_id": "CUST-00460",
+    "name": "Michael Gonzalez",
+    "email": "customer460@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "join_date": "2024-08-28"
+  },
+  {
+    "customer_id": "CUST-00461",
+    "name": "Patricia Davis",
+    "email": "customer461@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "join_date": "2025-10-20"
+  },
+  {
+    "customer_id": "CUST-00462",
+    "name": "Sandra Hernandez",
+    "email": "customer462@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Phoenix",
+    "join_date": "2023-09-28"
+  },
+  {
+    "customer_id": "CUST-00463",
+    "name": "Lisa Garcia",
+    "email": "customer463@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Memphis",
+    "join_date": "2025-08-22"
+  },
+  {
+    "customer_id": "CUST-00464",
+    "name": "Michael Johnson",
+    "email": "customer464@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "Los Angeles",
+    "join_date": "2023-05-04"
+  },
+  {
+    "customer_id": "CUST-00465",
+    "name": "Thomas Wilson",
+    "email": "customer465@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Memphis",
+    "join_date": "2025-05-17"
+  },
+  {
+    "customer_id": "CUST-00466",
+    "name": "Elizabeth Williams",
+    "email": "customer466@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Dallas",
+    "join_date": "2025-11-13"
+  },
+  {
+    "customer_id": "CUST-00467",
+    "name": "Christopher Williams",
+    "email": "customer467@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "join_date": "2024-09-27"
+  },
+  {
+    "customer_id": "CUST-00468",
+    "name": "John Wilson",
+    "email": "customer468@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2023-08-26"
+  },
+  {
+    "customer_id": "CUST-00469",
+    "name": "Lisa Garcia",
+    "email": "customer469@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2023-09-02"
+  },
+  {
+    "customer_id": "CUST-00470",
+    "name": "Jennifer Thomas",
+    "email": "customer470@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Denver",
+    "join_date": "2024-12-11"
+  },
+  {
+    "customer_id": "CUST-00471",
+    "name": "Matthew Rodriguez",
+    "email": "customer471@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cleveland",
+    "join_date": "2023-08-30"
+  },
+  {
+    "customer_id": "CUST-00472",
+    "name": "John Rodriguez",
+    "email": "customer472@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Washington",
+    "city": "Tacoma",
+    "join_date": "2023-06-07"
+  },
+  {
+    "customer_id": "CUST-00473",
+    "name": "Jessica Jackson",
+    "email": "customer473@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Arlington",
+    "join_date": "2023-12-08"
+  },
+  {
+    "customer_id": "CUST-00474",
+    "name": "Mark Jackson",
+    "email": "customer474@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cleveland",
+    "join_date": "2023-08-25"
+  },
+  {
+    "customer_id": "CUST-00475",
+    "name": "Margaret Smith",
+    "email": "customer475@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Miami",
+    "join_date": "2024-05-15"
+  },
+  {
+    "customer_id": "CUST-00476",
+    "name": "Robert Garcia",
+    "email": "customer476@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2023-03-14"
+  },
+  {
+    "customer_id": "CUST-00477",
+    "name": "Sandra Hernandez",
+    "email": "customer477@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Savannah",
+    "join_date": "2024-07-09"
+  },
+  {
+    "customer_id": "CUST-00478",
+    "name": "Lisa Johnson",
+    "email": "customer478@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Tucson",
+    "join_date": "2024-01-03"
+  },
+  {
+    "customer_id": "CUST-00479",
+    "name": "John Anderson",
+    "email": "customer479@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "join_date": "2024-08-01"
+  },
+  {
+    "customer_id": "CUST-00480",
+    "name": "James Lopez",
+    "email": "customer480@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Detroit",
+    "join_date": "2024-02-15"
+  },
+  {
+    "customer_id": "CUST-00481",
+    "name": "Linda Anderson",
+    "email": "customer481@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2025-01-24"
+  },
+  {
+    "customer_id": "CUST-00482",
+    "name": "Matthew Davis",
+    "email": "customer482@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2023-11-05"
+  },
+  {
+    "customer_id": "CUST-00483",
+    "name": "Barbara Smith",
+    "email": "customer483@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Las Vegas",
+    "join_date": "2024-11-17"
+  },
+  {
+    "customer_id": "CUST-00484",
+    "name": "Nancy Martinez",
+    "email": "customer484@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Ogden",
+    "join_date": "2023-08-01"
+  },
+  {
+    "customer_id": "CUST-00485",
+    "name": "Mary Jones",
+    "email": "customer485@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "join_date": "2024-07-27"
+  },
+  {
+    "customer_id": "CUST-00486",
+    "name": "Thomas Wilson",
+    "email": "customer486@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "California",
+    "city": "San Francisco",
+    "join_date": "2025-02-01"
+  },
+  {
+    "customer_id": "CUST-00487",
+    "name": "Thomas Jones",
+    "email": "customer487@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2025-03-18"
+  },
+  {
+    "customer_id": "CUST-00488",
+    "name": "Lisa Jones",
+    "email": "customer488@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Scottsdale",
+    "join_date": "2024-04-29"
+  },
+  {
+    "customer_id": "CUST-00489",
+    "name": "Richard Hernandez",
+    "email": "customer489@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2024-10-13"
+  },
+  {
+    "customer_id": "CUST-00490",
+    "name": "Michael Jones",
+    "email": "customer490@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "join_date": "2023-08-12"
+  },
+  {
+    "customer_id": "CUST-00491",
+    "name": "William Wilson",
+    "email": "customer491@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Buffalo",
+    "join_date": "2023-09-05"
+  },
+  {
+    "customer_id": "CUST-00492",
+    "name": "David Brown",
+    "email": "customer492@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cleveland",
+    "join_date": "2023-07-05"
+  },
+  {
+    "customer_id": "CUST-00493",
+    "name": "Daniel Martin",
+    "email": "customer493@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Florida",
+    "city": "Tampa",
+    "join_date": "2023-03-24"
+  },
+  {
+    "customer_id": "CUST-00494",
+    "name": "Linda Lopez",
+    "email": "customer494@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2025-03-22"
+  },
+  {
+    "customer_id": "CUST-00495",
+    "name": "Jennifer Smith",
+    "email": "customer495@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Colorado Springs",
+    "join_date": "2025-04-08"
+  },
+  {
+    "customer_id": "CUST-00496",
+    "name": "Patricia Anderson",
+    "email": "customer496@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2023-07-28"
+  },
+  {
+    "customer_id": "CUST-00497",
+    "name": "Matthew Davis",
+    "email": "customer497@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "New York City",
+    "join_date": "2023-09-25"
+  },
+  {
+    "customer_id": "CUST-00498",
+    "name": "Charles Williams",
+    "email": "customer498@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Jersey City",
+    "join_date": "2024-06-14"
+  },
+  {
+    "customer_id": "CUST-00499",
+    "name": "Charles Anderson",
+    "email": "customer499@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "Los Angeles",
+    "join_date": "2023-09-21"
+  },
+  {
+    "customer_id": "CUST-00500",
+    "name": "Joseph Johnson",
+    "email": "customer500@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Provo",
+    "join_date": "2023-12-11"
+  },
+  {
+    "customer_id": "CUST-00501",
+    "name": "Richard Wilson",
+    "email": "customer501@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Montgomery",
+    "join_date": "2023-12-20"
+  },
+  {
+    "customer_id": "CUST-00502",
+    "name": "Joseph Jones",
+    "email": "customer502@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Columbus",
+    "join_date": "2023-03-12"
+  },
+  {
+    "customer_id": "CUST-00503",
+    "name": "Mark Moore",
+    "email": "customer503@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Tampa",
+    "join_date": "2025-09-08"
+  },
+  {
+    "customer_id": "CUST-00504",
+    "name": "Susan Miller",
+    "email": "customer504@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Diego",
+    "join_date": "2024-05-25"
+  },
+  {
+    "customer_id": "CUST-00505",
+    "name": "Betty Thomas",
+    "email": "customer505@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2024-12-05"
+  },
+  {
+    "customer_id": "CUST-00506",
+    "name": "William Martin",
+    "email": "customer506@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Saint Paul",
+    "join_date": "2024-03-24"
+  },
+  {
+    "customer_id": "CUST-00507",
+    "name": "Jessica Taylor",
+    "email": "customer507@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Provo",
+    "join_date": "2025-01-02"
+  },
+  {
+    "customer_id": "CUST-00508",
+    "name": "Linda Rodriguez",
+    "email": "customer508@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "join_date": "2023-04-25"
+  },
+  {
+    "customer_id": "CUST-00509",
+    "name": "Anthony Garcia",
+    "email": "customer509@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "join_date": "2023-12-27"
+  },
+  {
+    "customer_id": "CUST-00510",
+    "name": "Daniel Lopez",
+    "email": "customer510@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "join_date": "2023-02-27"
+  },
+  {
+    "customer_id": "CUST-00511",
+    "name": "Michael Thomas",
+    "email": "customer511@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Green Bay",
+    "join_date": "2024-09-24"
+  },
+  {
+    "customer_id": "CUST-00512",
+    "name": "Linda Martin",
+    "email": "customer512@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Newark",
+    "join_date": "2024-03-24"
+  },
+  {
+    "customer_id": "CUST-00513",
+    "name": "Sandra Martin",
+    "email": "customer513@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Tucson",
+    "join_date": "2024-02-17"
+  },
+  {
+    "customer_id": "CUST-00514",
+    "name": "Betty Hernandez",
+    "email": "customer514@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Stamford",
+    "join_date": "2023-05-02"
+  },
+  {
+    "customer_id": "CUST-00515",
+    "name": "Robert Brown",
+    "email": "customer515@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Salem",
+    "join_date": "2025-01-17"
+  },
+  {
+    "customer_id": "CUST-00516",
+    "name": "Richard Jackson",
+    "email": "customer516@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Washington",
+    "city": "Spokane",
+    "join_date": "2023-07-26"
+  },
+  {
+    "customer_id": "CUST-00517",
+    "name": "Jennifer Wilson",
+    "email": "customer517@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2025-09-24"
+  },
+  {
+    "customer_id": "CUST-00518",
+    "name": "Daniel Martin",
+    "email": "customer518@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "join_date": "2024-12-31"
+  },
+  {
+    "customer_id": "CUST-00519",
+    "name": "Nancy Martinez",
+    "email": "customer519@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Orlando",
+    "join_date": "2023-09-18"
+  },
+  {
+    "customer_id": "CUST-00520",
+    "name": "Christopher Gonzalez",
+    "email": "customer520@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Florida",
+    "city": "Miami",
+    "join_date": "2023-03-08"
+  },
+  {
+    "customer_id": "CUST-00521",
+    "name": "Karen Davis",
+    "email": "customer521@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "join_date": "2023-08-02"
+  },
+  {
+    "customer_id": "CUST-00522",
+    "name": "Linda Lopez",
+    "email": "customer522@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Savannah",
+    "join_date": "2024-10-16"
+  },
+  {
+    "customer_id": "CUST-00523",
+    "name": "Lisa Hernandez",
+    "email": "customer523@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Florida",
+    "city": "Miami",
+    "join_date": "2025-07-03"
+  },
+  {
+    "customer_id": "CUST-00524",
+    "name": "John Lopez",
+    "email": "customer524@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Washington",
+    "city": "Seattle",
+    "join_date": "2024-06-09"
+  },
+  {
+    "customer_id": "CUST-00525",
+    "name": "Joseph Wilson",
+    "email": "customer525@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Denver",
+    "join_date": "2023-12-07"
+  },
+  {
+    "customer_id": "CUST-00526",
+    "name": "Richard Brown",
+    "email": "customer526@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Richmond",
+    "join_date": "2025-09-08"
+  },
+  {
+    "customer_id": "CUST-00527",
+    "name": "Margaret Johnson",
+    "email": "customer527@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Cambridge",
+    "join_date": "2024-08-26"
+  },
+  {
+    "customer_id": "CUST-00528",
+    "name": "John Hernandez",
+    "email": "customer528@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Washington",
+    "city": "Tacoma",
+    "join_date": "2023-12-15"
+  },
+  {
+    "customer_id": "CUST-00529",
+    "name": "Mark Williams",
+    "email": "customer529@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2024-11-23"
+  },
+  {
+    "customer_id": "CUST-00530",
+    "name": "Charles Garcia",
+    "email": "customer530@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2025-06-08"
+  },
+  {
+    "customer_id": "CUST-00531",
+    "name": "Michael Wilson",
+    "email": "customer531@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "New York City",
+    "join_date": "2024-06-27"
+  },
+  {
+    "customer_id": "CUST-00532",
+    "name": "Richard Jackson",
+    "email": "customer532@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Detroit",
+    "join_date": "2025-10-02"
+  },
+  {
+    "customer_id": "CUST-00533",
+    "name": "John Martinez",
+    "email": "customer533@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Albany",
+    "join_date": "2025-09-10"
+  },
+  {
+    "customer_id": "CUST-00534",
+    "name": "Charles Martinez",
+    "email": "customer534@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "New York City",
+    "join_date": "2023-06-17"
+  },
+  {
+    "customer_id": "CUST-00535",
+    "name": "Jessica Thomas",
+    "email": "customer535@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Texas",
+    "city": "Austin",
+    "join_date": "2024-06-26"
+  },
+  {
+    "customer_id": "CUST-00536",
+    "name": "Barbara Gonzalez",
+    "email": "customer536@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Boulder",
+    "join_date": "2025-01-26"
+  },
+  {
+    "customer_id": "CUST-00537",
+    "name": "Joseph Rodriguez",
+    "email": "customer537@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Newark",
+    "join_date": "2024-04-08"
+  },
+  {
+    "customer_id": "CUST-00538",
+    "name": "Daniel Brown",
+    "email": "customer538@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Milwaukee",
+    "join_date": "2023-06-25"
+  },
+  {
+    "customer_id": "CUST-00539",
+    "name": "Christopher Davis",
+    "email": "customer539@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2023-05-05"
+  },
+  {
+    "customer_id": "CUST-00540",
+    "name": "Lisa Thomas",
+    "email": "customer540@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Memphis",
+    "join_date": "2024-04-27"
+  },
+  {
+    "customer_id": "CUST-00541",
+    "name": "Margaret Johnson",
+    "email": "customer541@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "join_date": "2025-10-25"
+  },
+  {
+    "customer_id": "CUST-00542",
+    "name": "Jennifer Miller",
+    "email": "customer542@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Rochester",
+    "join_date": "2024-01-30"
+  },
+  {
+    "customer_id": "CUST-00543",
+    "name": "Lisa Wilson",
+    "email": "customer543@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Rochester",
+    "join_date": "2024-02-18"
+  },
+  {
+    "customer_id": "CUST-00544",
+    "name": "Nancy Williams",
+    "email": "customer544@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "join_date": "2023-06-28"
+  },
+  {
+    "customer_id": "CUST-00545",
+    "name": "Margaret Rodriguez",
+    "email": "customer545@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Memphis",
+    "join_date": "2025-11-30"
+  },
+  {
+    "customer_id": "CUST-00546",
+    "name": "Robert Jones",
+    "email": "customer546@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "San Antonio",
+    "join_date": "2023-07-25"
+  },
+  {
+    "customer_id": "CUST-00547",
+    "name": "Margaret Moore",
+    "email": "customer547@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Phoenix",
+    "join_date": "2024-12-05"
+  },
+  {
+    "customer_id": "CUST-00548",
+    "name": "Christopher Martin",
+    "email": "customer548@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "join_date": "2025-08-26"
+  },
+  {
+    "customer_id": "CUST-00549",
+    "name": "Karen Martin",
+    "email": "customer549@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Eugene",
+    "join_date": "2025-04-02"
+  },
+  {
+    "customer_id": "CUST-00550",
+    "name": "Mary Thomas",
+    "email": "customer550@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2024-07-04"
+  },
+  {
+    "customer_id": "CUST-00551",
+    "name": "Elizabeth Martinez",
+    "email": "customer551@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Springfield",
+    "join_date": "2024-07-28"
+  },
+  {
+    "customer_id": "CUST-00552",
+    "name": "Margaret Davis",
+    "email": "customer552@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Huntsville",
+    "join_date": "2023-10-03"
+  },
+  {
+    "customer_id": "CUST-00553",
+    "name": "William Rodriguez",
+    "email": "customer553@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "join_date": "2025-05-03"
+  },
+  {
+    "customer_id": "CUST-00554",
+    "name": "Anthony Wilson",
+    "email": "customer554@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Eugene",
+    "join_date": "2025-09-19"
+  },
+  {
+    "customer_id": "CUST-00555",
+    "name": "John Martinez",
+    "email": "customer555@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Naperville",
+    "join_date": "2025-11-03"
+  },
+  {
+    "customer_id": "CUST-00556",
+    "name": "James Garcia",
+    "email": "customer556@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2024-01-30"
+  },
+  {
+    "customer_id": "CUST-00557",
+    "name": "Mary Lopez",
+    "email": "customer557@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Buffalo",
+    "join_date": "2024-02-12"
+  },
+  {
+    "customer_id": "CUST-00558",
+    "name": "Charles Brown",
+    "email": "customer558@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2023-03-04"
+  },
+  {
+    "customer_id": "CUST-00559",
+    "name": "Jennifer Thomas",
+    "email": "customer559@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "New Haven",
+    "join_date": "2024-12-17"
+  },
+  {
+    "customer_id": "CUST-00560",
+    "name": "Daniel Williams",
+    "email": "customer560@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cleveland",
+    "join_date": "2024-08-06"
+  },
+  {
+    "customer_id": "CUST-00561",
+    "name": "Christopher Miller",
+    "email": "customer561@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Las Vegas",
+    "join_date": "2024-03-29"
+  },
+  {
+    "customer_id": "CUST-00562",
+    "name": "Susan Taylor",
+    "email": "customer562@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Orlando",
+    "join_date": "2023-02-11"
+  },
+  {
+    "customer_id": "CUST-00563",
+    "name": "Karen Smith",
+    "email": "customer563@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Las Vegas",
+    "join_date": "2024-04-03"
+  },
+  {
+    "customer_id": "CUST-00564",
+    "name": "Daniel Rodriguez",
+    "email": "customer564@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2025-05-17"
+  },
+  {
+    "customer_id": "CUST-00565",
+    "name": "Joseph Martinez",
+    "email": "customer565@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "join_date": "2025-03-24"
+  },
+  {
+    "customer_id": "CUST-00566",
+    "name": "Karen Martin",
+    "email": "customer566@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Diego",
+    "join_date": "2024-08-01"
+  },
+  {
+    "customer_id": "CUST-00567",
+    "name": "William Rodriguez",
+    "email": "customer567@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Indianapolis",
+    "join_date": "2024-10-27"
+  },
+  {
+    "customer_id": "CUST-00568",
+    "name": "Mark Martinez",
+    "email": "customer568@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Grand Rapids",
+    "join_date": "2024-01-21"
+  },
+  {
+    "customer_id": "CUST-00569",
+    "name": "Betty Martin",
+    "email": "customer569@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "join_date": "2025-04-07"
+  },
+  {
+    "customer_id": "CUST-00570",
+    "name": "Charles Thomas",
+    "email": "customer570@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Indianapolis",
+    "join_date": "2024-08-28"
+  },
+  {
+    "customer_id": "CUST-00571",
+    "name": "Mary Jackson",
+    "email": "customer571@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Saint Paul",
+    "join_date": "2024-01-24"
+  },
+  {
+    "customer_id": "CUST-00572",
+    "name": "Sarah Thomas",
+    "email": "customer572@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "South Bend",
+    "join_date": "2025-01-04"
+  },
+  {
+    "customer_id": "CUST-00573",
+    "name": "Jennifer Martinez",
+    "email": "customer573@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "join_date": "2023-07-19"
+  },
+  {
+    "customer_id": "CUST-00574",
+    "name": "Betty Moore",
+    "email": "customer574@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2024-01-10"
+  },
+  {
+    "customer_id": "CUST-00575",
+    "name": "Linda Martinez",
+    "email": "customer575@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Indianapolis",
+    "join_date": "2025-05-11"
+  },
+  {
+    "customer_id": "CUST-00576",
+    "name": "Joseph Brown",
+    "email": "customer576@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2025-08-21"
+  },
+  {
+    "customer_id": "CUST-00577",
+    "name": "Karen Williams",
+    "email": "customer577@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Ogden",
+    "join_date": "2025-08-25"
+  },
+  {
+    "customer_id": "CUST-00578",
+    "name": "Richard Taylor",
+    "email": "customer578@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "join_date": "2024-09-03"
+  },
+  {
+    "customer_id": "CUST-00579",
+    "name": "Michael Hernandez",
+    "email": "customer579@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Dallas",
+    "join_date": "2025-04-18"
+  },
+  {
+    "customer_id": "CUST-00580",
+    "name": "Jennifer Williams",
+    "email": "customer580@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Savannah",
+    "join_date": "2025-09-25"
+  },
+  {
+    "customer_id": "CUST-00581",
+    "name": "Mary Smith",
+    "email": "customer581@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Indianapolis",
+    "join_date": "2025-07-14"
+  },
+  {
+    "customer_id": "CUST-00582",
+    "name": "Jennifer Thomas",
+    "email": "customer582@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Columbus",
+    "join_date": "2023-06-30"
+  },
+  {
+    "customer_id": "CUST-00583",
+    "name": "Richard Wilson",
+    "email": "customer583@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "join_date": "2025-09-04"
+  },
+  {
+    "customer_id": "CUST-00584",
+    "name": "Nancy Lopez",
+    "email": "customer584@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Houston",
+    "join_date": "2023-01-29"
+  },
+  {
+    "customer_id": "CUST-00585",
+    "name": "James Davis",
+    "email": "customer585@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Milwaukee",
+    "join_date": "2024-04-08"
+  },
+  {
+    "customer_id": "CUST-00586",
+    "name": "Thomas Jackson",
+    "email": "customer586@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Detroit",
+    "join_date": "2024-09-18"
+  },
+  {
+    "customer_id": "CUST-00587",
+    "name": "Elizabeth Anderson",
+    "email": "customer587@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "New York City",
+    "join_date": "2025-12-01"
+  },
+  {
+    "customer_id": "CUST-00588",
+    "name": "William Thomas",
+    "email": "customer588@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Duluth",
+    "join_date": "2025-01-05"
+  },
+  {
+    "customer_id": "CUST-00589",
+    "name": "Linda Jones",
+    "email": "customer589@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Cambridge",
+    "join_date": "2024-03-08"
+  },
+  {
+    "customer_id": "CUST-00590",
+    "name": "Barbara Johnson",
+    "email": "customer590@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Scottsdale",
+    "join_date": "2025-02-07"
+  },
+  {
+    "customer_id": "CUST-00591",
+    "name": "Mary Brown",
+    "email": "customer591@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Green Bay",
+    "join_date": "2023-02-10"
+  },
+  {
+    "customer_id": "CUST-00592",
+    "name": "Richard Brown",
+    "email": "customer592@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Denver",
+    "join_date": "2024-06-01"
+  },
+  {
+    "customer_id": "CUST-00593",
+    "name": "Lisa Smith",
+    "email": "customer593@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2024-09-08"
+  },
+  {
+    "customer_id": "CUST-00594",
+    "name": "David Martin",
+    "email": "customer594@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2023-10-08"
+  },
+  {
+    "customer_id": "CUST-00595",
+    "name": "Betty Brown",
+    "email": "customer595@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Houston",
+    "join_date": "2025-10-16"
+  },
+  {
+    "customer_id": "CUST-00596",
+    "name": "Anthony Taylor",
+    "email": "customer596@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "join_date": "2024-02-18"
+  },
+  {
+    "customer_id": "CUST-00597",
+    "name": "Mary Moore",
+    "email": "customer597@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "join_date": "2025-10-13"
+  },
+  {
+    "customer_id": "CUST-00598",
+    "name": "James Smith",
+    "email": "customer598@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "join_date": "2023-07-02"
+  },
+  {
+    "customer_id": "CUST-00599",
+    "name": "Robert Williams",
+    "email": "customer599@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Utah",
+    "city": "Ogden",
+    "join_date": "2025-11-13"
+  },
+  {
+    "customer_id": "CUST-00600",
+    "name": "David Davis",
+    "email": "customer600@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Boulder",
+    "join_date": "2025-07-24"
+  },
+  {
+    "customer_id": "CUST-00601",
+    "name": "Anthony Garcia",
+    "email": "customer601@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2023-03-22"
+  },
+  {
+    "customer_id": "CUST-00602",
+    "name": "Nancy Brown",
+    "email": "customer602@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Grand Rapids",
+    "join_date": "2023-07-14"
+  },
+  {
+    "customer_id": "CUST-00603",
+    "name": "Jennifer Hernandez",
+    "email": "customer603@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "California",
+    "city": "San Francisco",
+    "join_date": "2025-01-02"
+  },
+  {
+    "customer_id": "CUST-00604",
+    "name": "John Lopez",
+    "email": "customer604@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Memphis",
+    "join_date": "2024-12-02"
+  },
+  {
+    "customer_id": "CUST-00605",
+    "name": "Joseph Rodriguez",
+    "email": "customer605@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Rochester",
+    "join_date": "2025-02-28"
+  },
+  {
+    "customer_id": "CUST-00606",
+    "name": "Jennifer Brown",
+    "email": "customer606@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Arlington",
+    "join_date": "2023-09-29"
+  },
+  {
+    "customer_id": "CUST-00607",
+    "name": "Sandra Jackson",
+    "email": "customer607@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "join_date": "2025-09-15"
+  },
+  {
+    "customer_id": "CUST-00608",
+    "name": "Barbara Martin",
+    "email": "customer608@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2023-03-01"
+  },
+  {
+    "customer_id": "CUST-00609",
+    "name": "Susan Anderson",
+    "email": "customer609@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Jersey City",
+    "join_date": "2023-04-05"
+  },
+  {
+    "customer_id": "CUST-00610",
+    "name": "Daniel Taylor",
+    "email": "customer610@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Washington",
+    "city": "Spokane",
+    "join_date": "2024-04-03"
+  },
+  {
+    "customer_id": "CUST-00611",
+    "name": "Karen Brown",
+    "email": "customer611@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Green Bay",
+    "join_date": "2025-06-05"
+  },
+  {
+    "customer_id": "CUST-00612",
+    "name": "Charles Gonzalez",
+    "email": "customer612@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Jersey City",
+    "join_date": "2023-11-01"
+  },
+  {
+    "customer_id": "CUST-00613",
+    "name": "Jessica Thomas",
+    "email": "customer613@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Francisco",
+    "join_date": "2023-12-05"
+  },
+  {
+    "customer_id": "CUST-00614",
+    "name": "William Rodriguez",
+    "email": "customer614@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Provo",
+    "join_date": "2023-04-14"
+  },
+  {
+    "customer_id": "CUST-00615",
+    "name": "Anthony Davis",
+    "email": "customer615@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2023-06-11"
+  },
+  {
+    "customer_id": "CUST-00616",
+    "name": "Margaret Thomas",
+    "email": "customer616@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Arlington",
+    "join_date": "2025-07-04"
+  },
+  {
+    "customer_id": "CUST-00617",
+    "name": "James Brown",
+    "email": "customer617@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Springfield",
+    "join_date": "2025-04-06"
+  },
+  {
+    "customer_id": "CUST-00618",
+    "name": "Betty Martin",
+    "email": "customer618@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Texas",
+    "city": "Houston",
+    "join_date": "2024-09-15"
+  },
+  {
+    "customer_id": "CUST-00619",
+    "name": "Barbara Johnson",
+    "email": "customer619@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "join_date": "2024-04-01"
+  },
+  {
+    "customer_id": "CUST-00620",
+    "name": "Karen Thomas",
+    "email": "customer620@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Durham",
+    "join_date": "2025-01-14"
+  },
+  {
+    "customer_id": "CUST-00621",
+    "name": "Linda Smith",
+    "email": "customer621@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Texas",
+    "city": "Houston",
+    "join_date": "2024-11-30"
+  },
+  {
+    "customer_id": "CUST-00622",
+    "name": "Barbara Brown",
+    "email": "customer622@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "join_date": "2023-04-04"
+  },
+  {
+    "customer_id": "CUST-00623",
+    "name": "Nancy Wilson",
+    "email": "customer623@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Newark",
+    "join_date": "2023-08-08"
+  },
+  {
+    "customer_id": "CUST-00624",
+    "name": "Sandra Gonzalez",
+    "email": "customer624@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Milwaukee",
+    "join_date": "2024-03-17"
+  },
+  {
+    "customer_id": "CUST-00625",
+    "name": "Matthew Wilson",
+    "email": "customer625@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2023-04-06"
+  },
+  {
+    "customer_id": "CUST-00626",
+    "name": "Christopher Taylor",
+    "email": "customer626@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Provo",
+    "join_date": "2023-10-03"
+  },
+  {
+    "customer_id": "CUST-00627",
+    "name": "Susan Jackson",
+    "email": "customer627@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Houston",
+    "join_date": "2025-09-16"
+  },
+  {
+    "customer_id": "CUST-00628",
+    "name": "Robert Brown",
+    "email": "customer628@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Florida",
+    "city": "Orlando",
+    "join_date": "2025-03-04"
+  },
+  {
+    "customer_id": "CUST-00629",
+    "name": "Karen Davis",
+    "email": "customer629@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2024-07-14"
+  },
+  {
+    "customer_id": "CUST-00630",
+    "name": "Robert Jones",
+    "email": "customer630@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "join_date": "2025-04-25"
+  },
+  {
+    "customer_id": "CUST-00631",
+    "name": "Daniel Moore",
+    "email": "customer631@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "South Bend",
+    "join_date": "2024-03-21"
+  },
+  {
+    "customer_id": "CUST-00632",
+    "name": "Lisa Lopez",
+    "email": "customer632@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "join_date": "2023-09-29"
+  },
+  {
+    "customer_id": "CUST-00633",
+    "name": "William Brown",
+    "email": "customer633@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2024-12-22"
+  },
+  {
+    "customer_id": "CUST-00634",
+    "name": "Daniel Wilson",
+    "email": "customer634@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2024-08-08"
+  },
+  {
+    "customer_id": "CUST-00635",
+    "name": "Robert Johnson",
+    "email": "customer635@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Texas",
+    "city": "Houston",
+    "join_date": "2023-04-26"
+  },
+  {
+    "customer_id": "CUST-00636",
+    "name": "Lisa Rodriguez",
+    "email": "customer636@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2023-10-27"
+  },
+  {
+    "customer_id": "CUST-00637",
+    "name": "Sarah Johnson",
+    "email": "customer637@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Colorado Springs",
+    "join_date": "2025-01-04"
+  },
+  {
+    "customer_id": "CUST-00638",
+    "name": "Sarah Gonzalez",
+    "email": "customer638@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Texas",
+    "city": "Dallas",
+    "join_date": "2024-05-01"
+  },
+  {
+    "customer_id": "CUST-00639",
+    "name": "Richard Gonzalez",
+    "email": "customer639@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "South Bend",
+    "join_date": "2025-05-03"
+  },
+  {
+    "customer_id": "CUST-00640",
+    "name": "David Miller",
+    "email": "customer640@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Milwaukee",
+    "join_date": "2025-06-26"
+  },
+  {
+    "customer_id": "CUST-00641",
+    "name": "Sarah Martin",
+    "email": "customer641@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Florida",
+    "city": "Tampa",
+    "join_date": "2024-02-07"
+  },
+  {
+    "customer_id": "CUST-00642",
+    "name": "Lisa Williams",
+    "email": "customer642@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "New Haven",
+    "join_date": "2024-01-18"
+  },
+  {
+    "customer_id": "CUST-00643",
+    "name": "Susan Rodriguez",
+    "email": "customer643@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Miami",
+    "join_date": "2024-06-25"
+  },
+  {
+    "customer_id": "CUST-00644",
+    "name": "James Hernandez",
+    "email": "customer644@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "join_date": "2025-08-13"
+  },
+  {
+    "customer_id": "CUST-00645",
+    "name": "Karen Johnson",
+    "email": "customer645@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "New York",
+    "city": "Buffalo",
+    "join_date": "2024-09-08"
+  },
+  {
+    "customer_id": "CUST-00646",
+    "name": "Betty Hernandez",
+    "email": "customer646@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2024-03-26"
+  },
+  {
+    "customer_id": "CUST-00647",
+    "name": "Jennifer Wilson",
+    "email": "customer647@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "join_date": "2025-04-06"
+  },
+  {
+    "customer_id": "CUST-00648",
+    "name": "Lisa Hernandez",
+    "email": "customer648@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Washington",
+    "city": "Seattle",
+    "join_date": "2024-11-09"
+  },
+  {
+    "customer_id": "CUST-00649",
+    "name": "Karen Taylor",
+    "email": "customer649@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Detroit",
+    "join_date": "2025-08-30"
+  },
+  {
+    "customer_id": "CUST-00650",
+    "name": "Mark Martin",
+    "email": "customer650@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Diego",
+    "join_date": "2024-05-14"
+  },
+  {
+    "customer_id": "CUST-00651",
+    "name": "Betty Brown",
+    "email": "customer651@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Colorado Springs",
+    "join_date": "2025-03-01"
+  },
+  {
+    "customer_id": "CUST-00652",
+    "name": "Sandra Taylor",
+    "email": "customer652@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Green Bay",
+    "join_date": "2025-02-06"
+  },
+  {
+    "customer_id": "CUST-00653",
+    "name": "Charles Miller",
+    "email": "customer653@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Virginia Beach",
+    "join_date": "2024-10-18"
+  },
+  {
+    "customer_id": "CUST-00654",
+    "name": "Matthew Moore",
+    "email": "customer654@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "California",
+    "city": "San Francisco",
+    "join_date": "2023-01-16"
+  },
+  {
+    "customer_id": "CUST-00655",
+    "name": "Michael Wilson",
+    "email": "customer655@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Salem",
+    "join_date": "2023-08-01"
+  },
+  {
+    "customer_id": "CUST-00656",
+    "name": "Nancy Wilson",
+    "email": "customer656@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2023-05-28"
+  },
+  {
+    "customer_id": "CUST-00657",
+    "name": "Mary Williams",
+    "email": "customer657@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New York",
+    "city": "Rochester",
+    "join_date": "2023-05-31"
+  },
+  {
+    "customer_id": "CUST-00658",
+    "name": "Christopher Davis",
+    "email": "customer658@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Eugene",
+    "join_date": "2024-06-13"
+  },
+  {
+    "customer_id": "CUST-00659",
+    "name": "Susan Hernandez",
+    "email": "customer659@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Richmond",
+    "join_date": "2023-02-04"
+  },
+  {
+    "customer_id": "CUST-00660",
+    "name": "Charles Martin",
+    "email": "customer660@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2023-05-10"
+  },
+  {
+    "customer_id": "CUST-00661",
+    "name": "Thomas Brown",
+    "email": "customer661@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Denver",
+    "join_date": "2024-08-16"
+  },
+  {
+    "customer_id": "CUST-00662",
+    "name": "Sandra Anderson",
+    "email": "customer662@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Milwaukee",
+    "join_date": "2025-02-20"
+  },
+  {
+    "customer_id": "CUST-00663",
+    "name": "Sarah Davis",
+    "email": "customer663@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2023-10-07"
+  },
+  {
+    "customer_id": "CUST-00664",
+    "name": "Robert Martinez",
+    "email": "customer664@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Memphis",
+    "join_date": "2025-02-03"
+  },
+  {
+    "customer_id": "CUST-00665",
+    "name": "Mary Smith",
+    "email": "customer665@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Scottsdale",
+    "join_date": "2025-03-18"
+  },
+  {
+    "customer_id": "CUST-00666",
+    "name": "Mark Lopez",
+    "email": "customer666@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Washington",
+    "city": "Seattle",
+    "join_date": "2024-03-09"
+  },
+  {
+    "customer_id": "CUST-00667",
+    "name": "Jennifer Davis",
+    "email": "customer667@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Huntsville",
+    "join_date": "2024-06-01"
+  },
+  {
+    "customer_id": "CUST-00668",
+    "name": "Christopher Johnson",
+    "email": "customer668@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New York",
+    "city": "Buffalo",
+    "join_date": "2025-08-02"
+  },
+  {
+    "customer_id": "CUST-00669",
+    "name": "Patricia Miller",
+    "email": "customer669@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Washington",
+    "city": "Spokane",
+    "join_date": "2025-09-24"
+  },
+  {
+    "customer_id": "CUST-00670",
+    "name": "Linda Brown",
+    "email": "customer670@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Detroit",
+    "join_date": "2024-08-06"
+  },
+  {
+    "customer_id": "CUST-00671",
+    "name": "William Martin",
+    "email": "customer671@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Eugene",
+    "join_date": "2024-09-18"
+  },
+  {
+    "customer_id": "CUST-00672",
+    "name": "William Wilson",
+    "email": "customer672@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2023-12-12"
+  },
+  {
+    "customer_id": "CUST-00673",
+    "name": "Daniel Wilson",
+    "email": "customer673@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Washington",
+    "city": "Seattle",
+    "join_date": "2024-07-20"
+  },
+  {
+    "customer_id": "CUST-00674",
+    "name": "Mark Thomas",
+    "email": "customer674@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "join_date": "2025-08-05"
+  },
+  {
+    "customer_id": "CUST-00675",
+    "name": "Patricia Garcia",
+    "email": "customer675@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "join_date": "2023-06-17"
+  },
+  {
+    "customer_id": "CUST-00676",
+    "name": "Nancy Williams",
+    "email": "customer676@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "join_date": "2023-06-04"
+  },
+  {
+    "customer_id": "CUST-00677",
+    "name": "Anthony Jackson",
+    "email": "customer677@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Utah",
+    "city": "Ogden",
+    "join_date": "2025-04-09"
+  },
+  {
+    "customer_id": "CUST-00678",
+    "name": "Sarah Thomas",
+    "email": "customer678@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Albany",
+    "join_date": "2023-11-01"
+  },
+  {
+    "customer_id": "CUST-00679",
+    "name": "Christopher Martinez",
+    "email": "customer679@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Minneapolis",
+    "join_date": "2023-10-02"
+  },
+  {
+    "customer_id": "CUST-00680",
+    "name": "Barbara Taylor",
+    "email": "customer680@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2023-01-22"
+  },
+  {
+    "customer_id": "CUST-00681",
+    "name": "Thomas Jones",
+    "email": "customer681@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2025-07-02"
+  },
+  {
+    "customer_id": "CUST-00682",
+    "name": "Lisa Jones",
+    "email": "customer682@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "join_date": "2025-09-17"
+  },
+  {
+    "customer_id": "CUST-00683",
+    "name": "Linda Williams",
+    "email": "customer683@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2024-06-25"
+  },
+  {
+    "customer_id": "CUST-00684",
+    "name": "Thomas Lopez",
+    "email": "customer684@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Columbus",
+    "join_date": "2025-03-05"
+  },
+  {
+    "customer_id": "CUST-00685",
+    "name": "Charles Hernandez",
+    "email": "customer685@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Virginia Beach",
+    "join_date": "2023-07-31"
+  },
+  {
+    "customer_id": "CUST-00686",
+    "name": "Christopher Garcia",
+    "email": "customer686@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "join_date": "2025-02-10"
+  },
+  {
+    "customer_id": "CUST-00687",
+    "name": "Anthony Williams",
+    "email": "customer687@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Durham",
+    "join_date": "2025-11-24"
+  },
+  {
+    "customer_id": "CUST-00688",
+    "name": "Barbara Lopez",
+    "email": "customer688@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Minneapolis",
+    "join_date": "2025-09-24"
+  },
+  {
+    "customer_id": "CUST-00689",
+    "name": "Robert Anderson",
+    "email": "customer689@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Nashville",
+    "join_date": "2023-12-06"
+  },
+  {
+    "customer_id": "CUST-00690",
+    "name": "Jennifer Garcia",
+    "email": "customer690@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Albany",
+    "join_date": "2025-01-11"
+  },
+  {
+    "customer_id": "CUST-00691",
+    "name": "William Brown",
+    "email": "customer691@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Denver",
+    "join_date": "2025-09-13"
+  },
+  {
+    "customer_id": "CUST-00692",
+    "name": "Charles Wilson",
+    "email": "customer692@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Virginia Beach",
+    "join_date": "2023-02-15"
+  },
+  {
+    "customer_id": "CUST-00693",
+    "name": "Jennifer Jones",
+    "email": "customer693@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Buffalo",
+    "join_date": "2025-11-15"
+  },
+  {
+    "customer_id": "CUST-00694",
+    "name": "David Garcia",
+    "email": "customer694@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Phoenix",
+    "join_date": "2025-11-24"
+  },
+  {
+    "customer_id": "CUST-00695",
+    "name": "Mark Martinez",
+    "email": "customer695@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2023-06-25"
+  },
+  {
+    "customer_id": "CUST-00696",
+    "name": "Margaret Thomas",
+    "email": "customer696@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Trenton",
+    "join_date": "2023-12-16"
+  },
+  {
+    "customer_id": "CUST-00697",
+    "name": "Christopher Garcia",
+    "email": "customer697@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Trenton",
+    "join_date": "2025-11-12"
+  },
+  {
+    "customer_id": "CUST-00698",
+    "name": "Sandra Anderson",
+    "email": "customer698@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "join_date": "2023-05-21"
+  },
+  {
+    "customer_id": "CUST-00699",
+    "name": "James Miller",
+    "email": "customer699@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Jersey City",
+    "join_date": "2025-10-29"
+  },
+  {
+    "customer_id": "CUST-00700",
+    "name": "Jessica Martin",
+    "email": "customer700@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2023-03-21"
+  },
+  {
+    "customer_id": "CUST-00701",
+    "name": "Mark Martin",
+    "email": "customer701@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "California",
+    "city": "San Jose",
+    "join_date": "2023-01-03"
+  },
+  {
+    "customer_id": "CUST-00702",
+    "name": "Mary Taylor",
+    "email": "customer702@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Memphis",
+    "join_date": "2025-05-28"
+  },
+  {
+    "customer_id": "CUST-00703",
+    "name": "Betty Jackson",
+    "email": "customer703@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Jersey City",
+    "join_date": "2023-07-20"
+  },
+  {
+    "customer_id": "CUST-00704",
+    "name": "Linda Williams",
+    "email": "customer704@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Savannah",
+    "join_date": "2024-08-03"
+  },
+  {
+    "customer_id": "CUST-00705",
+    "name": "Nancy Smith",
+    "email": "customer705@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "join_date": "2023-08-30"
+  },
+  {
+    "customer_id": "CUST-00706",
+    "name": "William Wilson",
+    "email": "customer706@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Las Vegas",
+    "join_date": "2025-01-11"
+  },
+  {
+    "customer_id": "CUST-00707",
+    "name": "David Rodriguez",
+    "email": "customer707@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Eugene",
+    "join_date": "2025-05-17"
+  },
+  {
+    "customer_id": "CUST-00708",
+    "name": "Richard Miller",
+    "email": "customer708@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Wisconsin",
+    "city": "Madison",
+    "join_date": "2025-04-26"
+  },
+  {
+    "customer_id": "CUST-00709",
+    "name": "Jessica Rodriguez",
+    "email": "customer709@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Savannah",
+    "join_date": "2024-09-20"
+  },
+  {
+    "customer_id": "CUST-00710",
+    "name": "Margaret Brown",
+    "email": "customer710@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "join_date": "2024-04-15"
+  },
+  {
+    "customer_id": "CUST-00711",
+    "name": "Thomas Gonzalez",
+    "email": "customer711@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2024-11-24"
+  },
+  {
+    "customer_id": "CUST-00712",
+    "name": "James Williams",
+    "email": "customer712@email.com",
+    "segment": "VIP",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Eugene",
+    "join_date": "2023-10-25"
+  },
+  {
+    "customer_id": "CUST-00713",
+    "name": "David Davis",
+    "email": "customer713@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Memphis",
+    "join_date": "2025-01-29"
+  },
+  {
+    "customer_id": "CUST-00714",
+    "name": "Sandra Gonzalez",
+    "email": "customer714@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Phoenix",
+    "join_date": "2024-08-09"
+  },
+  {
+    "customer_id": "CUST-00715",
+    "name": "Joseph Smith",
+    "email": "customer715@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "join_date": "2024-02-18"
+  },
+  {
+    "customer_id": "CUST-00716",
+    "name": "Thomas Taylor",
+    "email": "customer716@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Columbus",
+    "join_date": "2024-04-19"
+  },
+  {
+    "customer_id": "CUST-00717",
+    "name": "Charles Smith",
+    "email": "customer717@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Miami",
+    "join_date": "2023-11-19"
+  },
+  {
+    "customer_id": "CUST-00718",
+    "name": "Richard Gonzalez",
+    "email": "customer718@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Washington",
+    "city": "Tacoma",
+    "join_date": "2024-02-15"
+  },
+  {
+    "customer_id": "CUST-00719",
+    "name": "John Moore",
+    "email": "customer719@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Boulder",
+    "join_date": "2024-08-05"
+  },
+  {
+    "customer_id": "CUST-00720",
+    "name": "Michael Anderson",
+    "email": "customer720@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2025-04-07"
+  },
+  {
+    "customer_id": "CUST-00721",
+    "name": "Patricia Moore",
+    "email": "customer721@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Washington",
+    "city": "Seattle",
+    "join_date": "2023-05-29"
+  },
+  {
+    "customer_id": "CUST-00722",
+    "name": "David Moore",
+    "email": "customer722@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Detroit",
+    "join_date": "2024-05-27"
+  },
+  {
+    "customer_id": "CUST-00723",
+    "name": "Linda Hernandez",
+    "email": "customer723@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Arlington",
+    "join_date": "2025-07-28"
+  },
+  {
+    "customer_id": "CUST-00724",
+    "name": "David Williams",
+    "email": "customer724@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Nashville",
+    "join_date": "2025-02-22"
+  },
+  {
+    "customer_id": "CUST-00725",
+    "name": "Susan Lopez",
+    "email": "customer725@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Florida",
+    "city": "Orlando",
+    "join_date": "2025-11-23"
+  },
+  {
+    "customer_id": "CUST-00726",
+    "name": "John Gonzalez",
+    "email": "customer726@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Colorado Springs",
+    "join_date": "2024-12-01"
+  },
+  {
+    "customer_id": "CUST-00727",
+    "name": "Barbara Miller",
+    "email": "customer727@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Phoenix",
+    "join_date": "2024-07-05"
+  },
+  {
+    "customer_id": "CUST-00728",
+    "name": "Michael Davis",
+    "email": "customer728@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Orlando",
+    "join_date": "2024-05-10"
+  },
+  {
+    "customer_id": "CUST-00729",
+    "name": "Linda Martin",
+    "email": "customer729@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Columbus",
+    "join_date": "2024-12-30"
+  },
+  {
+    "customer_id": "CUST-00730",
+    "name": "Lisa Thomas",
+    "email": "customer730@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "New York",
+    "city": "New York City",
+    "join_date": "2023-01-14"
+  },
+  {
+    "customer_id": "CUST-00731",
+    "name": "William Thomas",
+    "email": "customer731@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Provo",
+    "join_date": "2024-07-16"
+  },
+  {
+    "customer_id": "CUST-00732",
+    "name": "Linda Jackson",
+    "email": "customer732@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2023-09-20"
+  },
+  {
+    "customer_id": "CUST-00733",
+    "name": "Sarah Johnson",
+    "email": "customer733@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Tucson",
+    "join_date": "2025-10-26"
+  },
+  {
+    "customer_id": "CUST-00734",
+    "name": "Joseph Brown",
+    "email": "customer734@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Duluth",
+    "join_date": "2025-11-27"
+  },
+  {
+    "customer_id": "CUST-00735",
+    "name": "Lisa Miller",
+    "email": "customer735@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Durham",
+    "join_date": "2025-02-16"
+  },
+  {
+    "customer_id": "CUST-00736",
+    "name": "David Garcia",
+    "email": "customer736@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Washington",
+    "city": "Tacoma",
+    "join_date": "2024-06-22"
+  },
+  {
+    "customer_id": "CUST-00737",
+    "name": "William Lopez",
+    "email": "customer737@email.com",
+    "segment": "VIP",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "New Haven",
+    "join_date": "2024-01-12"
+  },
+  {
+    "customer_id": "CUST-00738",
+    "name": "Matthew Lopez",
+    "email": "customer738@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Virginia Beach",
+    "join_date": "2025-01-17"
+  },
+  {
+    "customer_id": "CUST-00739",
+    "name": "Robert Jackson",
+    "email": "customer739@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "join_date": "2024-04-13"
+  },
+  {
+    "customer_id": "CUST-00740",
+    "name": "Sarah Wilson",
+    "email": "customer740@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Colorado Springs",
+    "join_date": "2025-02-19"
+  },
+  {
+    "customer_id": "CUST-00741",
+    "name": "Betty Smith",
+    "email": "customer741@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "join_date": "2023-12-28"
+  },
+  {
+    "customer_id": "CUST-00742",
+    "name": "Margaret Taylor",
+    "email": "customer742@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Virginia",
+    "city": "Virginia Beach",
+    "join_date": "2024-10-08"
+  },
+  {
+    "customer_id": "CUST-00743",
+    "name": "Christopher Johnson",
+    "email": "customer743@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "join_date": "2025-03-26"
+  },
+  {
+    "customer_id": "CUST-00744",
+    "name": "Anthony Rodriguez",
+    "email": "customer744@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Denver",
+    "join_date": "2025-09-02"
+  },
+  {
+    "customer_id": "CUST-00745",
+    "name": "Barbara Moore",
+    "email": "customer745@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2024-06-11"
+  },
+  {
+    "customer_id": "CUST-00746",
+    "name": "Margaret Martin",
+    "email": "customer746@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Springfield",
+    "join_date": "2024-02-12"
+  },
+  {
+    "customer_id": "CUST-00747",
+    "name": "Thomas Thomas",
+    "email": "customer747@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "New Haven",
+    "join_date": "2025-07-04"
+  },
+  {
+    "customer_id": "CUST-00748",
+    "name": "Robert Garcia",
+    "email": "customer748@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Reno",
+    "join_date": "2024-11-21"
+  },
+  {
+    "customer_id": "CUST-00749",
+    "name": "Margaret Williams",
+    "email": "customer749@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Huntsville",
+    "join_date": "2023-06-12"
+  },
+  {
+    "customer_id": "CUST-00750",
+    "name": "Charles Martinez",
+    "email": "customer750@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2024-07-01"
+  },
+  {
+    "customer_id": "CUST-00751",
+    "name": "Barbara Jackson",
+    "email": "customer751@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "join_date": "2025-07-11"
+  },
+  {
+    "customer_id": "CUST-00752",
+    "name": "Robert Davis",
+    "email": "customer752@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Atlanta",
+    "join_date": "2024-05-30"
+  },
+  {
+    "customer_id": "CUST-00753",
+    "name": "Patricia Williams",
+    "email": "customer753@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Portland",
+    "join_date": "2025-08-27"
+  },
+  {
+    "customer_id": "CUST-00754",
+    "name": "John Brown",
+    "email": "customer754@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "San Jose",
+    "join_date": "2024-06-21"
+  },
+  {
+    "customer_id": "CUST-00755",
+    "name": "Linda Martinez",
+    "email": "customer755@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Rochester",
+    "join_date": "2025-06-26"
+  },
+  {
+    "customer_id": "CUST-00756",
+    "name": "James Johnson",
+    "email": "customer756@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "join_date": "2024-12-31"
+  },
+  {
+    "customer_id": "CUST-00757",
+    "name": "Sarah Rodriguez",
+    "email": "customer757@email.com",
+    "segment": "VIP",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Saint Paul",
+    "join_date": "2025-06-30"
+  },
+  {
+    "customer_id": "CUST-00758",
+    "name": "Joseph Jackson",
+    "email": "customer758@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Florida",
+    "city": "Orlando",
+    "join_date": "2025-06-09"
+  },
+  {
+    "customer_id": "CUST-00759",
+    "name": "Betty Williams",
+    "email": "customer759@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2025-06-23"
+  },
+  {
+    "customer_id": "CUST-00760",
+    "name": "Elizabeth Smith",
+    "email": "customer760@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "join_date": "2023-01-01"
+  },
+  {
+    "customer_id": "CUST-00761",
+    "name": "James Thomas",
+    "email": "customer761@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "New Haven",
+    "join_date": "2025-09-04"
+  },
+  {
+    "customer_id": "CUST-00762",
+    "name": "Karen Davis",
+    "email": "customer762@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Springfield",
+    "join_date": "2023-01-15"
+  },
+  {
+    "customer_id": "CUST-00763",
+    "name": "Susan Gonzalez",
+    "email": "customer763@email.com",
+    "segment": "Premium",
+    "region": "Midwest",
+    "state": "Ohio",
+    "city": "Cleveland",
+    "join_date": "2024-05-26"
+  },
+  {
+    "customer_id": "CUST-00764",
+    "name": "Linda Rodriguez",
+    "email": "customer764@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "join_date": "2023-06-12"
+  },
+  {
+    "customer_id": "CUST-00765",
+    "name": "Betty Martin",
+    "email": "customer765@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2024-07-10"
+  },
+  {
+    "customer_id": "CUST-00766",
+    "name": "David Wilson",
+    "email": "customer766@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "South Bend",
+    "join_date": "2024-01-21"
+  },
+  {
+    "customer_id": "CUST-00767",
+    "name": "Charles Anderson",
+    "email": "customer767@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Portland",
+    "join_date": "2025-07-16"
+  },
+  {
+    "customer_id": "CUST-00768",
+    "name": "William Smith",
+    "email": "customer768@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Indiana",
+    "city": "South Bend",
+    "join_date": "2023-11-08"
+  },
+  {
+    "customer_id": "CUST-00769",
+    "name": "Patricia Martinez",
+    "email": "customer769@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Phoenix",
+    "join_date": "2024-07-05"
+  },
+  {
+    "customer_id": "CUST-00770",
+    "name": "Linda Williams",
+    "email": "customer770@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Florida",
+    "city": "Jacksonville",
+    "join_date": "2023-11-05"
+  },
+  {
+    "customer_id": "CUST-00771",
+    "name": "Elizabeth Thomas",
+    "email": "customer771@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Las Vegas",
+    "join_date": "2025-01-30"
+  },
+  {
+    "customer_id": "CUST-00772",
+    "name": "Anthony Jones",
+    "email": "customer772@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Birmingham",
+    "join_date": "2023-04-25"
+  },
+  {
+    "customer_id": "CUST-00773",
+    "name": "Jennifer Miller",
+    "email": "customer773@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Minnesota",
+    "city": "Minneapolis",
+    "join_date": "2024-05-27"
+  },
+  {
+    "customer_id": "CUST-00774",
+    "name": "Daniel Davis",
+    "email": "customer774@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Texas",
+    "city": "Houston",
+    "join_date": "2025-02-27"
+  },
+  {
+    "customer_id": "CUST-00775",
+    "name": "Michael Anderson",
+    "email": "customer775@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Augusta",
+    "join_date": "2023-07-12"
+  },
+  {
+    "customer_id": "CUST-00776",
+    "name": "Elizabeth Hernandez",
+    "email": "customer776@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Jersey City",
+    "join_date": "2023-11-21"
+  },
+  {
+    "customer_id": "CUST-00777",
+    "name": "David Thomas",
+    "email": "customer777@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Colorado",
+    "city": "Boulder",
+    "join_date": "2024-09-03"
+  },
+  {
+    "customer_id": "CUST-00778",
+    "name": "Michael Brown",
+    "email": "customer778@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Hartford",
+    "join_date": "2024-04-28"
+  },
+  {
+    "customer_id": "CUST-00779",
+    "name": "David Jackson",
+    "email": "customer779@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "join_date": "2023-09-03"
+  },
+  {
+    "customer_id": "CUST-00780",
+    "name": "Christopher Thomas",
+    "email": "customer780@email.com",
+    "segment": "VIP",
+    "region": "South",
+    "state": "Georgia",
+    "city": "Atlanta",
+    "join_date": "2023-11-14"
+  },
+  {
+    "customer_id": "CUST-00781",
+    "name": "John Martin",
+    "email": "customer781@email.com",
+    "segment": "Regular",
+    "region": "Midwest",
+    "state": "Illinois",
+    "city": "Chicago",
+    "join_date": "2024-11-24"
+  },
+  {
+    "customer_id": "CUST-00782",
+    "name": "Daniel Moore",
+    "email": "customer782@email.com",
+    "segment": "Premium",
+    "region": "West",
+    "state": "California",
+    "city": "San Diego",
+    "join_date": "2023-08-08"
+  },
+  {
+    "customer_id": "CUST-00783",
+    "name": "Sarah Lopez",
+    "email": "customer783@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New Jersey",
+    "city": "Newark",
+    "join_date": "2025-06-17"
+  },
+  {
+    "customer_id": "CUST-00784",
+    "name": "Robert Rodriguez",
+    "email": "customer784@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Rochester",
+    "join_date": "2023-03-22"
+  },
+  {
+    "customer_id": "CUST-00785",
+    "name": "Sarah Thomas",
+    "email": "customer785@email.com",
+    "segment": "Regular",
+    "region": "South",
+    "state": "Alabama",
+    "city": "Montgomery",
+    "join_date": "2024-01-24"
+  },
+  {
+    "customer_id": "CUST-00786",
+    "name": "Joseph Rodriguez",
+    "email": "customer786@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "join_date": "2023-11-25"
+  },
+  {
+    "customer_id": "CUST-00787",
+    "name": "Anthony Rodriguez",
+    "email": "customer787@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Arizona",
+    "city": "Phoenix",
+    "join_date": "2025-01-21"
+  },
+  {
+    "customer_id": "CUST-00788",
+    "name": "Mark Smith",
+    "email": "customer788@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Texas",
+    "city": "San Antonio",
+    "join_date": "2025-01-15"
+  },
+  {
+    "customer_id": "CUST-00789",
+    "name": "Sarah Gonzalez",
+    "email": "customer789@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Connecticut",
+    "city": "Stamford",
+    "join_date": "2024-01-24"
+  },
+  {
+    "customer_id": "CUST-00790",
+    "name": "William Wilson",
+    "email": "customer790@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Nashville",
+    "join_date": "2024-10-21"
+  },
+  {
+    "customer_id": "CUST-00791",
+    "name": "Robert Garcia",
+    "email": "customer791@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "California",
+    "city": "Los Angeles",
+    "join_date": "2023-03-06"
+  },
+  {
+    "customer_id": "CUST-00792",
+    "name": "Mary Jackson",
+    "email": "customer792@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "New York",
+    "city": "Rochester",
+    "join_date": "2025-03-06"
+  },
+  {
+    "customer_id": "CUST-00793",
+    "name": "David Johnson",
+    "email": "customer793@email.com",
+    "segment": "Premium",
+    "region": "South",
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "join_date": "2025-01-20"
+  },
+  {
+    "customer_id": "CUST-00794",
+    "name": "Sandra Miller",
+    "email": "customer794@email.com",
+    "segment": "Regular",
+    "region": "East",
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "join_date": "2025-10-03"
+  },
+  {
+    "customer_id": "CUST-00795",
+    "name": "Nancy Wilson",
+    "email": "customer795@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Nevada",
+    "city": "Las Vegas",
+    "join_date": "2025-01-25"
+  },
+  {
+    "customer_id": "CUST-00796",
+    "name": "Mary Williams",
+    "email": "customer796@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Ogden",
+    "join_date": "2024-09-14"
+  },
+  {
+    "customer_id": "CUST-00797",
+    "name": "Nancy Davis",
+    "email": "customer797@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Salem",
+    "join_date": "2025-02-28"
+  },
+  {
+    "customer_id": "CUST-00798",
+    "name": "Christopher Garcia",
+    "email": "customer798@email.com",
+    "segment": "Premium",
+    "region": "East",
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "join_date": "2025-04-30"
+  },
+  {
+    "customer_id": "CUST-00799",
+    "name": "Lisa Anderson",
+    "email": "customer799@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Utah",
+    "city": "Ogden",
+    "join_date": "2025-05-24"
+  },
+  {
+    "customer_id": "CUST-00800",
+    "name": "Thomas Hernandez",
+    "email": "customer800@email.com",
+    "segment": "Regular",
+    "region": "West",
+    "state": "Oregon",
+    "city": "Portland",
+    "join_date": "2023-11-20"
+  }
+]
