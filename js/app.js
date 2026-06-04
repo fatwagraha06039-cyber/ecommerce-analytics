@@ -20,19 +20,9 @@ Chart.defaults.plugins.legend.labels.padding = 16;
 Chart.defaults.elements.line.tension = 0.4;
 
 // ============================================
-// DATA LOADING
+// NOTE: Data loading is handled by data-engine.js
+// DATA variable is set by that module before initDashboard() is called
 // ============================================
-let DATA = null;
-
-async function loadData() {
-    try {
-        const response = await fetch('data/ecommerce_data.json');
-        DATA = await response.json();
-        initDashboard();
-    } catch (error) {
-        console.error('Failed to load data:', error);
-    }
-}
 
 // ============================================
 // INITIALIZATION
@@ -40,6 +30,14 @@ async function loadData() {
 function initDashboard() {
     // Navigation must init first, before any render errors can block it
     initNavigation();
+
+    // Update header badges with live data
+    if (DATA && DATA.kpis) {
+        var hrc = document.getElementById('headerRecordCount');
+        if (hrc) hrc.textContent = formatNumber(DATA.kpis.total_orders) + ' Transactions';
+        var hcc = document.getElementById('headerCustomerCount');
+        if (hcc) hcc.textContent = formatNumber(DATA.kpis.unique_customers) + ' Customers';
+    }
 
     try { renderKPIs(); } catch(e) { console.error('renderKPIs:', e); }
     try { renderComparisons(); } catch(e) { console.error('renderComparisons:', e); }
@@ -548,35 +546,40 @@ function renderSQLShowcase() {
 // PIPELINE SECTION
 // ============================================
 function renderPipelineSection() {
-    var steps = [
-        { num: '1', label: 'Raw Data' },
-        { num: '2', label: 'Cleaning' },
-        { num: '3', label: 'Validation' },
-        { num: '4', label: 'Transformation' },
-        { num: '5', label: 'Feature Engineering' },
-        { num: '6', label: 'Analysis' },
-        { num: '7', label: 'Visualization' },
-        { num: '8', label: 'Business Insights' }
+    // Live Data Pipeline Flow
+    var isLive = DATA && DATA._live;
+    var pipeSteps = [
+        { label: isLive ? 'Google Sheets' : 'Local JSON', active: true },
+        { label: isLive ? 'Apps Script API' : 'Static File', active: isLive },
+        { label: 'JSON Processing', active: true },
+        { label: 'Analytics Engine', active: true },
+        { label: 'Dashboard', active: true }
     ];
 
-    document.getElementById('pipelineSteps').innerHTML = steps.map(function(s, i) {
-        var arrow = i < steps.length - 1 ? '<span class="pipeline-arrow">&#8594;</span>' : '';
-        return '<div class="pipeline-step"><span class="step-num">' + s.num + '</span>' + s.label + '</div>' + arrow;
+    document.getElementById('pipelineSteps').innerHTML = pipeSteps.map(function(s, i) {
+        var arrow = i < pipeSteps.length - 1 ? '<span class="pipe-arrow">&#8594;</span>' : '';
+        return '<div class="pipe-step' + (s.active ? ' active' : '') + '">' + s.label + '</div>' + arrow;
     }).join('');
 
-    // Data Quality
+    // Data Source Info
+    var recordCount = DATA ? (DATA._record_count || DATA.kpis.total_orders) : 0;
+    var lastSync = DATA && DATA._last_updated ? new Date(DATA._last_updated).toLocaleString() : 'N/A';
+    var uniqueCustomers = DATA ? DATA.kpis.unique_customers : 0;
+    var catCount = DATA ? DATA.categories.length : 0;
+    var regCount = DATA ? DATA.regions.length : 0;
+
     document.getElementById('dataQuality').innerHTML =
         '<div style="display:grid;gap:var(--space-md)">' +
         [
-            { label: 'Total Records', value: '5,000', status: 'active' },
-            { label: 'Completed Orders', value: '3,930 (78.6%)', status: 'active' },
-            { label: 'Returned Orders', value: '~560 (11.2%)', status: 'warning' },
-            { label: 'Cancelled Orders', value: '~510 (10.2%)', status: 'warning' },
-            { label: 'Missing Values', value: '0 (validated)', status: 'active' },
-            { label: 'Date Range', value: 'Jan 2024 - Dec 2025', status: 'active' },
-            { label: 'Unique Customers', value: '794', status: 'active' },
-            { label: 'Product Categories', value: '6', status: 'active' },
-            { label: 'Geographic Regions', value: '4 (24 states)', status: 'active' }
+            { label: 'Data Source', value: isLive ? 'Google Sheets (Live)' : 'Local JSON (Demo)', status: isLive ? 'active' : 'warning' },
+            { label: 'Total Records', value: formatNumber(recordCount), status: 'active' },
+            { label: 'Last Sync', value: lastSync, status: 'active' },
+            { label: 'Update Frequency', value: isLive ? 'Every 5 minutes' : 'Manual', status: isLive ? 'active' : 'warning' },
+            { label: 'Unique Customers', value: formatNumber(uniqueCustomers), status: 'active' },
+            { label: 'Product Categories', value: catCount.toString(), status: 'active' },
+            { label: 'Geographic Regions', value: regCount.toString(), status: 'active' },
+            { label: 'Connection Status', value: CONNECTION_STATUS || 'N/A', status: CONNECTION_STATUS === 'connected' ? 'active' : 'warning' },
+            { label: 'Fetch Count', value: (FETCH_COUNT || 0).toString(), status: 'active' }
         ].map(function(item) {
             return '<div style="display:flex;justify-content:space-between;align-items:center;padding:var(--space-sm) 0;border-bottom:1px solid var(--border-subtle)"><span style="color:var(--text-secondary);font-size:0.8125rem">' + item.label + '</span><div style="display:flex;align-items:center;gap:var(--space-sm)"><span class="status-dot ' + item.status + '"></span><span style="font-size:0.875rem;font-weight:500">' + item.value + '</span></div></div>';
         }).join('') + '</div>';
@@ -647,6 +650,5 @@ function exportCSV(data, filename) {
 }
 
 // ============================================
-// LOAD DATA ON PAGE READY
-// ============================================
-document.addEventListener('DOMContentLoaded', loadData);
+// NOTE: DOMContentLoaded listener is in data-engine.js
+// It calls loadData() which sets DATA and then calls initDashboard()

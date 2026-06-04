@@ -1,6 +1,38 @@
 # E-Commerce Analytics Dashboard — Executive BI
 
-> **Premium enterprise-grade business intelligence dashboard** transforming raw e-commerce transaction data into executive-level analytics.
+> **Premium enterprise-grade business intelligence dashboard** with **live data pipeline** from Google Sheets.
+
+---
+
+## Live Dashboard
+
+**Live Demo:** [GitHub Pages](https://fatwagraha06039-cyber.github.io/ecommerce-analytics/)
+
+---
+
+## System Architecture
+
+```
+Google Sheets (Data Source)
+        ↓
+Google Apps Script (API Backend)
+        ↓
+JSON Endpoint (REST API)
+        ↓
+JavaScript Data Engine (Fetch + Process)
+        ↓
+Analytics Engine (KPI Calculation)
+        ↓
+Interactive Dashboard (Auto-Refresh)
+```
+
+### How It Works
+
+1. **Google Sheets** — Store raw transaction data (Date, Order ID, Customer, Product, Category, Region, Revenue, Profit)
+2. **Google Apps Script** — Backend API that reads the spreadsheet and returns JSON
+3. **Data Engine** (`data-engine.js`) — Fetches data, normalizes it, calculates KPIs
+4. **Dashboard** (`app.js`) — Renders charts, tables, and insights from processed data
+5. **Auto-Refresh** — Dashboard updates every 5 minutes automatically
 
 ---
 
@@ -24,6 +56,65 @@ A dark-mode, glassmorphism-styled SaaS dashboard with 8 analytical sections, 30+
 | Repeat Purchase Rate | 97.7% |
 | Product Categories | 6 |
 | Geographic Regions | 4 (24 states) |
+
+---
+
+## Live Data Pipeline
+
+### Google Sheets Integration
+
+The dashboard connects to Google Sheets via Apps Script API:
+
+1. **Data Source**: Google Spreadsheet with transaction records
+2. **API Backend**: Google Apps Script (Web App)
+3. **Data Format**: JSON endpoint with auto-aggregation
+4. **Refresh Rate**: Every 5 minutes (configurable)
+5. **Fallback**: Local JSON if API unavailable
+
+### Setup Instructions
+
+**Step 1: Create Google Sheet**
+
+Create a spreadsheet with these columns (Row 1 = headers):
+
+| Date | Order ID | Customer ID | Customer Name | Product | Category | Region | Quantity | Revenue | Profit |
+|------|----------|-------------|---------------|---------|----------|--------|----------|---------|--------|
+| 2026-06-01 | ORD001 | CUS001 | John Smith | Laptop | Electronics | West | 2 | 1500 | 350 |
+
+**Step 2: Deploy Apps Script**
+
+1. Open Extensions > Apps Script
+2. Copy contents of `apps-script/Code.gs`
+3. Click Deploy > New Deployment > Web App
+   - Execute as: Me
+   - Who has access: Anyone
+4. Copy the web app URL
+
+**Step 3: Connect Dashboard**
+
+1. Open `js/data-engine.js`
+2. Set `GOOGLE_SHEET_API_URL` to your Apps Script URL:
+   ```javascript
+   const GOOGLE_SHEET_API_URL = 'https://script.google.com/macros/s/.../exec';
+   ```
+3. Deploy to GitHub Pages
+
+**Done!** Dashboard will now auto-fetch and display live data.
+
+---
+
+## Live Dashboard Features
+
+| Feature | Description |
+|---------|-------------|
+| Auto-Refresh | Updates every 5 minutes |
+| Manual Refresh | Click refresh button anytime |
+| Connection Status | Green dot = live, Red = error |
+| Last Sync Time | Shows when data was last fetched |
+| Record Count | Displays total records loaded |
+| Loading Overlay | Visual feedback during data sync |
+| Error Notifications | Alerts when connection fails |
+| Fallback Mode | Uses local JSON if API unavailable |
 
 ---
 
@@ -121,10 +212,13 @@ ecommerce-analytics/
 ├── css/
 │   └── main.css                # Premium dark theme (glassmorphism)
 ├── js/
-│   └── app.js                  # Dashboard engine (charts, KPIs, insights)
+│   ├── app.js                  # Dashboard engine (charts, KPIs, insights)
+│   └── data-engine.js          # Live data pipeline (Google Sheets API)
+├── apps-script/
+│   └── Code.gs                 # Google Apps Script backend
 ├── data/
 │   ├── generate_dataset.py     # Dataset generator script
-│   ├── ecommerce_data.json     # Pre-computed dashboard data
+│   ├── ecommerce_data.json     # Fallback dashboard data
 │   ├── ecommerce_orders.json   # Raw transaction data (5000 records)
 │   └── ecommerce_customers.json # Customer data (800 customers)
 ├── README.md
