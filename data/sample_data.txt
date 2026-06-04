@@ -1,0 +1,101 @@
+﻿Date	Order ID	Customer ID	Customer Name	Product	Category	Region	Quantity	Revenue	Profit
+2024-04-24	ORD0001	CUS044	Peter Young	Headphones	Electronics	West	2	146.72	83.88
+2025-03-08	ORD0002	CUS002	Peter Young	Laptop	Electronics	East	1	732.47	532.26
+2025-03-05	ORD0003	CUS011	Leo Harris	Sneakers	Apparel	North	3	213.09	145.49
+2024-10-11	ORD0004	CUS023	Jack White	Jeans	Apparel	North	3	118.89	66.19
+2024-02-14	ORD0005	CUS036	Henry Clark	Shampoo	Beauty	North	1	20.55	13.72
+2024-07-15	ORD0006	CUS006	Frank Moore	Moisturizer	Beauty	West	1	36.69	20.87
+2025-01-24	ORD0007	CUS043	Grace Lee	Knife Set	Home & Kitchen	West	3	121.35	68.91
+2024-06-24	ORD0008	CUS041	Peter Young	Yoga Mat	Sports	East	2	59.32	36.42
+2024-11-28	ORD0009	CUS005	Eve Taylor	Smartphone	Electronics	North	1	545.76	428.13
+2024-08-05	ORD0010	CUS010	Grace Lee	Shampoo	Beauty	East	4	80.32	51.52
+2024-09-09	ORD0011	CUS038	Karen Green	Lipstick	Beauty	North	3	70.89	44.28
+2024-08-12	ORD0012	CUS008	Charlie Davis	Dress	Apparel	East	4	193.0	112.97
+2025-03-08	ORD0013	CUS034	Grace Lee	Running Shoes	Sports	West	4	347.2	193.31
+2024-04-27	ORD0014	CUS019	Leo Harris	Lipstick	Beauty	East	3	71.31	45.17
+2025-04-09	ORD0015	CUS041	Henry Clark	Headphones	Electronics	East	2	160.36	105.08
+2024-06-05	ORD0016	CUS008	Jack White	Blender	Home & Kitchen	North	1	82.37	52.44
+2024-09-02	ORD0017	CUS005	Peter Young	Smartphone	Electronics	East	1	437.85	318.19
+2024-05-11	ORD0018	CUS028	Eve Taylor	Shampoo	Beauty	East	2	33.46	18.42
+2024-11-15	ORD0019	CUS016	Frank Moore	Fiction Novel	Books	West	4	80.64	48.95
+2024-12-12	ORD0020	CUS046	Jane Doe	Monitor	Electronics	East	2	513.26	405.09
+2024-03-10	ORD0021	CUS032	Eve Taylor	Headphones	Electronics	East	1	80.34	51.67
+2025-04-29	ORD0022	CUS028	Jack White	Sneakers	Apparel	South	4	235.84	143.9
+2025-02-24	ORD0023	CUS007	Frank Moore	Programming Guide	Books	East	1	30.39	14.71
+2024-07-13	ORD0024	CUS016	Bob Wilson	Water Bottle	Sports	South	2	29.3	17.83
+2024-04-10	ORD0025	CUS016	Diana Miller	Monitor	Electronics	South	1	285.17	220.05
+2025-05-12	ORD0026	CUS001	Karen Green	Business Book	Books	North	4	125.52	80.74
+2025-04-10	ORD0027	CUS004	Quinn Hall	Knife Set	Home & Kitchen	West	4	161.36	92.29
+2024-11-17	ORD0028	CUS011	Jane Doe	Laptop	Electronics	West	4	3202.72	2346.28
+2024-07-09	ORD0029	CUS008	Quinn Hall	Monitor	Electronics	East	1	263.14	206.32
+2024-02-10	ORD0030	CUS021	Grace Lee	Running Shoes	Sports	East	4	377.0	235.17
+2024-11-17	ORD0031	CUS030	Ivy Chen	Jacket	Apparel	West	4	284.56	140.49
+2024-01-10	ORD0032	CUS017	Charlie Davis	Science Book	Books	North	1	26.16	14.85
+2024-03-11	ORD0033	CUS046	Henry Clark	Jacket	Apparel	West	3	215.37	103.36
+2024-11-02	ORD0034	CUS048	Peter Young	Moisturizer	Beauty	East	2	65.06	32.72
+2024-10-05	ORD0035	CUS041	Grace Lee	Toaster	Home & Kitchen	South	2	117.18	79.55
+2024-09-14	ORD0036	CUS022	Charlie Davis	Laptop	Electronics	North	4	3516.16	2789.11
+2024-06-14	ORD0037	CUS045	Charlie Davis	Shampoo	Beauty	West	4	73.32	47.49
+2025-01-13	ORD0038	CUS024	Jane Doe	Fitness Tracker	Sports	North	2	234.94	153.19
+2024-08-03	ORD0039	CUS027	Rosa Adams	Sunscreen	Beauty	East	1	19.12	11.02
+2024-08-30	ORD0040	CUS022	Leo Harris	Jeans	Apparel	East	4	154.32	78.91
+2024-09-30	ORD0041	CUS015	Eve Taylor	T-Shirt	Apparel	South	4	111.16	68.29
+2024-12-24	ORD0042	CUS022	Grace Lee	Blender	Home & Kitchen	West	2	137.14	80.82
+2024-10-12	ORD0043	CUS022	John Smith	Toaster	Home & Kitchen	West	4	231.84	146.34
+2024-09-24	ORD0044	CUS023	Ivy Chen	Dress	Apparel	South	3	142.14	74.87
+2025-06-07	ORD0045	CUS001	Olivia Wright	Tablet	Electronics	East	2	648.5	460.98
+2025-01-07	ORD0046	CUS008	Henry Clark	Programming Guide	Books	North	3	108.87	62.4
+2025-02-22	ORD0047	CUS043	Karen Green	Knife Set	Home & Kitchen	East	3	137.19	86.52
+2024-11-04	ORD0048	CUS038	Rosa Adams	Science Book	Books	North	1	28.23	16.93
+2025-04-21	ORD0049	CUS048	Diana Miller	Cookbook	Books	West	2	50.16	28.99
+2024-10-17	ORD0050	CUS016	Henry Clark	Fitness Tracker	Sports	East	3	316.08	168.88
+2024-07-22	ORD0051	CUS050	Bob Wilson	T-Shirt	Apparel	South	1	23.09	13.14
+2025-02-28	ORD0052	CUS026	Frank Moore	Lipstick	Beauty	East	2	46.88	29.3
+2024-01-06	ORD0053	CUS034	Mia Scott	Tablet	Electronics	West	2	631.94	435.45
+2024-09-12	ORD0054	CUS036	Rosa Adams	Tablet	Electronics	North	2	763.3	577.27
+2025-03-29	ORD0055	CUS011	Noah King	Fitness Tracker	Sports	South	4	527.6	345.88
+2024-09-22	ORD0056	CUS005	Henry Clark	Jacket	Apparel	East	4	332.16	198.47
+2024-10-05	ORD0057	CUS045	Charlie Davis	Air Fryer	Home & Kitchen	East	1	84.69	51.57
+2024-03-06	ORD0058	CUS014	Leo Harris	Cookbook	Books	South	3	75.96	46.47
+2024-01-21	ORD0059	CUS049	Karen Green	Water Bottle	Sports	South	4	51.12	27.83
+2024-08-13	ORD0060	CUS022	Karen Green	Business Book	Books	East	3	82.38	49.77
+2025-04-23	ORD0061	CUS043	John Smith	Dress	Apparel	West	1	61.71	39.31
+2025-03-14	ORD0062	CUS014	Mia Scott	Sneakers	Apparel	North	2	112.46	63.67
+2024-12-11	ORD0063	CUS002	Peter Young	Fiction Novel	Books	West	4	66.64	37.32
+2024-12-24	ORD0064	CUS013	John Smith	T-Shirt	Apparel	East	1	26.91	16.01
+2024-09-01	ORD0065	CUS045	Grace Lee	Sneakers	Apparel	North	1	66.25	42.66
+2024-06-20	ORD0066	CUS020	Alice Brown	Fitness Tracker	Sports	West	1	130.0	88.03
+2024-11-15	ORD0067	CUS038	Frank Moore	Water Bottle	Sports	West	4	67.96	45.41
+2024-11-04	ORD0068	CUS003	Jack White	Lipstick	Beauty	South	1	23.96	14.84
+2025-01-14	ORD0069	CUS032	Alice Brown	Monitor	Electronics	South	3	640.35	463.23
+2025-01-05	ORD0070	CUS042	Grace Lee	Shampoo	Beauty	South	2	35.3	20.65
+2025-04-21	ORD0071	CUS006	Grace Lee	Science Book	Books	South	3	85.2	51.03
+2024-09-06	ORD0072	CUS021	Diana Miller	Science Book	Books	South	4	114.12	66.17
+2024-08-05	ORD0073	CUS018	Peter Young	Air Fryer	Home & Kitchen	West	3	266.16	159.14
+2025-06-13	ORD0074	CUS049	Frank Moore	T-Shirt	Apparel	South	2	53.3	33.35
+2025-05-17	ORD0075	CUS016	Henry Clark	Programming Guide	Books	North	1	32.84	18.13
+2025-04-29	ORD0076	CUS022	Jack White	Fitness Tracker	Sports	South	3	351.96	210.32
+2024-10-04	ORD0077	CUS008	Peter Young	Air Fryer	Home & Kitchen	East	2	168.38	102.68
+2024-07-15	ORD0078	CUS034	Rosa Adams	Sneakers	Apparel	North	3	208.14	125.99
+2024-04-12	ORD0079	CUS046	Peter Young	Jacket	Apparel	East	2	153.32	86.09
+2024-10-07	ORD0080	CUS049	Noah King	Laptop	Electronics	West	3	2542.14	1986.99
+2024-01-13	ORD0081	CUS004	Grace Lee	Dumbbells	Sports	South	4	218.6	141.15
+2024-04-26	ORD0082	CUS004	Charlie Davis	Tablet	Electronics	East	4	1221.12	851.8
+2024-11-07	ORD0083	CUS039	Rosa Adams	Smartphone	Electronics	East	1	508.71	390.72
+2025-06-19	ORD0084	CUS028	Henry Clark	Cookbook	Books	West	4	93.92	53.21
+2024-04-11	ORD0085	CUS012	Peter Young	Jeans	Apparel	West	3	141.51	91.21
+2024-06-09	ORD0086	CUS003	Frank Moore	Tablet	Electronics	North	4	1479.52	1121.69
+2024-10-16	ORD0087	CUS041	Quinn Hall	Shampoo	Beauty	East	1	19.01	11.42
+2025-03-11	ORD0088	CUS010	Bob Wilson	Monitor	Electronics	West	2	522.14	392.34
+2024-06-18	ORD0089	CUS020	Karen Green	Toaster	Home & Kitchen	North	3	162.0	102.38
+2025-05-27	ORD0090	CUS028	Ivy Chen	Water Bottle	Sports	North	4	52.44	30.65
+2024-01-27	ORD0091	CUS018	Quinn Hall	Smartphone	Electronics	West	1	574.94	450.81
+2024-06-28	ORD0092	CUS038	Leo Harris	Science Book	Books	South	4	134.96	90.02
+2024-04-03	ORD0093	CUS011	Ivy Chen	Fiction Novel	Books	South	4	68.4	35.31
+2025-05-22	ORD0094	CUS021	Alice Brown	Knife Set	Home & Kitchen	South	1	44.39	27.06
+2025-06-10	ORD0095	CUS024	Rosa Adams	Monitor	Electronics	South	4	973.96	748.96
+2025-03-28	ORD0096	CUS029	Noah King	Smartphone	Electronics	West	3	1522.14	1131.35
+2024-01-30	ORD0097	CUS001	Peter Young	Lipstick	Beauty	South	2	46.76	29.44
+2024-04-05	ORD0098	CUS010	Noah King	T-Shirt	Apparel	North	4	113.4	72.22
+2025-06-05	ORD0099	CUS016	Mia Scott	Perfume	Beauty	East	4	286.12	163.36
+2025-01-27	ORD0100	CUS027	Ivy Chen	Dress	Apparel	North	2	122.02	79.99

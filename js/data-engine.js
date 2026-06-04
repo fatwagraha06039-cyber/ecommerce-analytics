@@ -7,7 +7,7 @@
 // CONFIGURATION — EDIT THIS URL
 // ============================================
 // After deploying Google Apps Script, paste your web app URL here:
-const GOOGLE_SHEET_API_URL = '';
+const GOOGLE_SHEET_API_URL = 'https://script.google.com/macros/s/AKfycbzaYhEQSIJeOZmi4TFa45F8S76_2sqeGJwFTqSdz-v5ZBDMVgm-W5LduPpJz2OB156gdQ/exec';
 
 // Fallback to local JSON if no API URL configured
 const USE_LIVE_DATA = GOOGLE_SHEET_API_URL.length > 0;
